@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2008-03-31T22:45:53.781675Z"
+   url="http://mt.coas.oregonstate.edu/svn/EMTF/trunk/D/FCOR"
+   last-author="anya"
+   kind="dir"
+   uuid="bcfa3012-84ba-4d04-8f02-a7023fe307d2"
+   revision="17"/>
+<entry
+   committed-rev="3"
+   name="resptbl1.f"
+   text-time="2008-04-07T23:29:04.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="802e2c5935f1812ccb2e255f34cea53d"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fcor.inc"
+   text-time="2008-04-07T23:29:04.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="cf5cbcf94890d12141b59290d1146cce"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wrt_sp.f"
+   text-time="2008-04-07T23:29:04.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="853ac6ca95b96de025c37f1ae120aac7"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="plotSysTF.m"
+   text-time="2008-04-07T23:29:04.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="0c5449a289ba2f72119e875dff00868a"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="getsp.f"
+   text-time="2008-04-07T23:29:04.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="bea01c8c6fbcd09469d8da9c394f600f"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="getsp1.f"
+   text-time="2008-04-07T23:29:05.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="00b3e0bc3dced1698fe017ed1187ff36"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="systblsu.f"
+   text-time="2008-04-07T23:29:05.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="fb7ef7c5b2cff4d54c7e21798fd565f3"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-04-07T23:29:05.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="94eb091524b93ed2c4c686f966ec2bb8"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README"
+   text-time="2008-04-07T23:29:05.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="946989b7f473e49cc6be2f8ec98a09b6"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mksp.f"
+   text-time="2008-04-07T23:29:05.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="e156380401b3d3d96b1140ec715358b0"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rdRsp.f"
+   text-time="2008-04-07T23:29:05.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="ca93ea43a9e46159c3080d0284020607"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sysTFtbl.f"
+   text-time="2008-04-07T23:29:05.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="b1da4c87b32e9c077a00fbb768704e51"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:04.000000Z"/>
+</wc-entries>

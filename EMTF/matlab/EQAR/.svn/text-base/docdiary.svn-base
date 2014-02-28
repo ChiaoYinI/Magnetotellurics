@@ -1,0 +1,10 @@
+
+31July2005
+Added an explicit declaration of PKDSAOdata
+line 5 SDMsection, and line 20 SDM merge
+kk
+
+Reason: My environment variables are set for retreiving data from 
+my data directories, not the group directory.
+hmmm, probably I should just start using the group directories as my data dirs...
+

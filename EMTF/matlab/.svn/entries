@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="17"
+   name=""
+   committed-date="2008-05-06T20:08:21.355968Z"
+   url="http://mt.coas.oregonstate.edu/svn/EMTF/trunk/matlab"
+   last-author="egbert"
+   kind="dir"
+   uuid="bcfa3012-84ba-4d04-8f02-a7023fe307d2"
+   revision="17"/>
+<entry
+   name="CCNEW"
+   kind="dir"/>
+<entry
+   name="SDM"
+   kind="dir"/>
+<entry
+   name="PW"
+   kind="dir"/>
+<entry
+   name="EQAR"
+   kind="dir"/>
+<entry
+   name="ZPLT"
+   kind="dir"/>
+<entry
+   name="TVAR"
+   kind="dir"/>
+<entry
+   name="UTIL"
+   kind="dir"/>
+</wc-entries>

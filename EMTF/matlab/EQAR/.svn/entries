@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2008-05-02T22:47:13.953266Z"
+   url="http://mt.coas.oregonstate.edu/svn/EMTF/trunk/matlab/EQAR"
+   last-author="anya"
+   kind="dir"
+   uuid="bcfa3012-84ba-4d04-8f02-a7023fe307d2"
+   revision="17"/>
+<entry
+   committed-rev="3"
+   name="setDataDir.m"
+   text-time="2008-04-07T23:28:46.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="ea05c2e93fdc923a39386b3b0adbb216"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:45.000000Z"/>
+<entry
+   committed-rev="16"
+   name="RhoPhiFileList.m"
+   text-time="2008-05-14T21:08:32.000000Z"
+   committed-date="2008-05-02T22:47:13.953266Z"
+   checksum="6542e8dd3f25a4cece115297e905e0ae"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-05-14T21:08:32.000000Z"/>
+<entry
+   committed-rev="2"
+   name="F2001rho.mat"
+   text-time="2007-07-19T04:43:46.000000Z"
+   committed-date="2008-03-31T21:40:44.829012Z"
+   checksum="6750611e9c743014609f1af13e936643"
+   last-author="egbert"
+   kind="file"
+   prop-time="2008-03-31T21:37:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="SDMSig.m"
+   text-time="2008-04-07T23:28:46.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="fe98afcde76289a1692937031916f344"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:45.000000Z"/>
+<entry
+   committed-rev="16"
+   name="RhoPhiPlot.m"
+   text-time="2008-05-14T21:08:32.000000Z"
+   committed-date="2008-05-02T22:47:13.953266Z"
+   checksum="056e89aa800c9122fcc5d4d96120cde7"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-05-14T21:08:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="FTsdmPlotCases.m"
+   text-time="2008-04-07T23:28:46.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="9c9614be300b30f104909ac2690daef9"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="SetPaths.m"
+   text-time="2008-04-07T23:28:46.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="e5cd73149e5cc5de350a563a5ab04001"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="CaxisLims.m"
+   text-time="2008-04-07T23:28:46.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="237478120a04c41e81e556fbe708aac9"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ZallRead.m"
+   text-time="2008-04-07T23:28:47.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="549bd4b0dc6317712134e2e28891f654"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:45.000000Z"/>
+<entry
+   committed-rev="16"
+   name="RhoPhiPlotscr.m"
+   text-time="2008-05-14T21:08:32.000000Z"
+   committed-date="2008-05-02T22:47:13.953266Z"
+   checksum="5ded5976bcddc949f97ccd53dfe241f9"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-05-14T21:08:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="plot2File.m"
+   text-time="2008-04-07T23:28:47.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="74bd4b693d7f91d8d3a72a18aa85b0a9"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="plotWhat.m"
+   text-time="2008-04-07T23:28:47.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="9db7808c9d26873b7ea4d9ca3d0d3275"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="SDMmerge.m"
+   text-time="2008-04-07T23:28:48.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="2d4fa5534fcdba3c25984dcdeb3840e6"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="docdiary"
+   text-time="2008-04-07T23:28:48.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="812475947063094c5c6f2a1b39511d37"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:45.000000Z"/>
+<entry
+   committed-rev="2"
+   name="f1999.mat"
+   text-time="2007-07-19T04:43:45.000000Z"
+   committed-date="2008-03-31T21:40:44.829012Z"
+   checksum="4d63c98ecabb71eaba252c3c55ad586b"
+   last-author="egbert"
+   kind="file"
+   prop-time="2008-03-31T21:37:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="yellowZero.m"
+   text-time="2008-04-07T23:28:48.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="359596de199224a3c539f11f29a62217"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="colmap.m"
+   text-time="2008-04-07T23:28:48.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="e6d3040ae9218aaeaf416fcabc5e8929"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="SDMwts.m"
+   text-time="2008-04-07T23:28:48.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="9f04f15a15907bc5117111956083a4fc"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="adjustY.m"
+   text-time="2008-04-07T23:28:48.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="60fcf85e67970e793c8d1257a2f449a3"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="setTFTYPE.m"
+   text-time="2008-04-07T23:28:48.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="e8dff5687c07ceae5302cb9adac30a10"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="multiPlot.m"
+   text-time="2008-04-07T23:28:49.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="742de51f3fe7aa1dd0c819c6d065dc20"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="selectCh.m"
+   text-time="2008-04-07T23:28:49.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="9c3acd45ec541791b1db2dfbfdf3f4a1"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:45.000000Z"/>
+<entry
+   committed-rev="2"
+   name="f2.mat"
+   text-time="2007-07-19T04:43:45.000000Z"
+   committed-date="2008-03-31T21:40:44.829012Z"
+   checksum="df78cca8b244606a548fdf0c59f94b56"
+   last-author="egbert"
+   kind="file"
+   prop-time="2008-03-31T21:37:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ExtractSNR.m"
+   text-time="2008-04-07T23:28:49.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="3b40f30efb1399ca3076674dec28b073"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:45.000000Z"/>
+<entry
+   committed-rev="16"
+   name="CodesAvailable"
+   text-time="2008-05-14T21:08:32.000000Z"
+   committed-date="2008-05-02T22:47:13.953266Z"
+   checksum="238707561fd4b35f75cad1a411fd3f69"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-05-14T21:08:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="plotEQ.m"
+   text-time="2008-04-07T23:28:49.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="ce2cf115e8ad9a12d0f6c2345d40f15b"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="plotEQlog.m"
+   text-time="2008-04-07T23:28:49.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="138f3e12fcb86c1de359284face6454c"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="SDMsection.m"
+   text-time="2008-04-07T23:28:50.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="e4ad9bc7fe2297f4c29eeb29cbd337f1"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftPlot.m"
+   text-time="2008-04-07T23:28:49.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="4585276dd401d6760ced22c0e2117ad8"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="defaultLims.m"
+   text-time="2008-04-07T23:28:50.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="ab779e0410326aa6a8cf63fba584ca32"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:45.000000Z"/>
+<entry
+   committed-rev="2"
+   name="f.mat"
+   text-time="2007-07-19T04:43:45.000000Z"
+   committed-date="2008-03-31T21:40:44.829012Z"
+   checksum="93f8b9add9df6924b38311df28bc351f"
+   last-author="egbert"
+   kind="file"
+   prop-time="2008-03-31T21:37:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="junk"
+   text-time="2008-04-07T23:28:50.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="35340c2e1b12e51d157848ab93f80849"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="FTsdmPlot.m"
+   text-time="2008-04-07T23:28:50.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="82fd63550201fab0a8fb6fed9de09605"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:45.000000Z"/>
+<entry
+   committed-rev="2"
+   name="f2000.mat"
+   text-time="2007-07-19T04:43:46.000000Z"
+   committed-date="2008-03-31T21:40:44.829012Z"
+   checksum="5d9e4221f4ef75893cf49b259273a1a0"
+   last-author="egbert"
+   kind="file"
+   prop-time="2008-03-31T21:37:09.000000Z"/>
+<entry
+   committed-rev="2"
+   name="f2001.mat"
+   text-time="2007-07-19T04:43:46.000000Z"
+   committed-date="2008-03-31T21:40:44.829012Z"
+   checksum="429cf331d0d5dafa65f93735028c8bfc"
+   last-author="egbert"
+   kind="file"
+   prop-time="2008-03-31T21:37:09.000000Z"/>
+<entry
+   committed-rev="2"
+   name="f2002.mat"
+   text-time="2007-07-19T04:43:46.000000Z"
+   committed-date="2008-03-31T21:40:44.829012Z"
+   checksum="a37656952b361b6dadfd352e22b754da"
+   last-author="egbert"
+   kind="file"
+   prop-time="2008-03-31T21:37:09.000000Z"/>
+<entry
+   committed-rev="2"
+   name="f2003.mat"
+   text-time="2007-07-19T04:43:46.000000Z"
+   committed-date="2008-03-31T21:40:44.829012Z"
+   checksum="c7be550bc060b0a26690120469d6a2eb"
+   last-author="egbert"
+   kind="file"
+   prop-time="2008-03-31T21:37:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftPlotscr.m"
+   text-time="2008-04-07T23:28:50.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="986f5299e98b9ce7b12fa9d65e0a6e0d"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:45.000000Z"/>
+<entry
+   committed-rev="2"
+   name="f2004.mat"
+   text-time="2007-07-19T04:43:47.000000Z"
+   committed-date="2008-03-31T21:40:44.829012Z"
+   checksum="bdb5294a7a237e2f1e96d3c18c504dbf"
+   last-author="egbert"
+   kind="file"
+   prop-time="2008-03-31T21:37:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="SDMavg.m"
+   text-time="2008-04-07T23:28:51.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="b81386d1b41a54fcdd17bf43bdc8639e"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="SDM_ch_subset.m"
+   text-time="2008-04-07T23:28:51.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="03eb1e04158c99c60832ed2c7bb6d9c1"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:46.000000Z"/>
+</wc-entries>

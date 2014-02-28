@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="17"
+   name=""
+   committed-date="2008-05-06T20:08:21.355968Z"
+   url="http://mt.coas.oregonstate.edu/svn/EMTF/trunk"
+   last-author="egbert"
+   kind="dir"
+   uuid="bcfa3012-84ba-4d04-8f02-a7023fe307d2"
+   revision="17"/>
+<entry
+   name="matlab"
+   kind="dir"/>
+<entry
+   name="D"
+   kind="dir"/>
+<entry
+   name="T"
+   kind="dir"/>
+<entry
+   name="include"
+   kind="dir"/>
+<entry
+   name="doc"
+   kind="dir"/>
+<entry
+   name="CF"
+   kind="dir"/>
+<entry
+   name="MMT"
+   kind="dir"/>
+<entry
+   committed-rev="4"
+   name="README"
+   text-time="2008-04-07T23:29:50.000000Z"
+   committed-date="2008-03-31T23:02:59.424873Z"
+   checksum="e0bdc7fadd1cc145068fb48b2f8a7723"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:38.000000Z"/>
+<entry
+   name="examples"
+   kind="dir"/>
+</wc-entries>

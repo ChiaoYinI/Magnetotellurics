@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="10"
+   name=""
+   committed-date="2008-04-16T23:12:38.467943Z"
+   url="http://mt.coas.oregonstate.edu/svn/EMTF/trunk/doc"
+   last-author="egbert"
+   kind="dir"
+   uuid="bcfa3012-84ba-4d04-8f02-a7023fe307d2"
+   revision="17"/>
+<entry
+   name="TEX"
+   kind="dir"/>
+<entry
+   committed-rev="10"
+   name="BUGS"
+   text-time="2008-04-16T21:24:56.000000Z"
+   committed-date="2008-04-16T23:12:38.467943Z"
+   checksum="862fe4c2effb6f986be2a3450e5e466f"
+   last-author="egbert"
+   kind="file"/>
+<entry
+   name="PS"
+   kind="dir"/>
+<entry
+   name="PDF"
+   kind="dir"/>
+</wc-entries>

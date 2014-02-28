@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4"
+   name=""
+   committed-date="2008-03-31T23:02:59.424873Z"
+   url="http://mt.coas.oregonstate.edu/svn/EMTF/trunk/examples/DATA"
+   last-author="anya"
+   kind="dir"
+   uuid="bcfa3012-84ba-4d04-8f02-a7023fe307d2"
+   revision="17"/>
+<entry
+   committed-rev="3"
+   name="test1.asc"
+   text-time="2008-04-07T23:29:49.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="41dcd6f1bba49bf389e054e9d44d66df"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="test2.asc"
+   text-time="2008-04-07T23:29:49.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="10e5e8ce84d460d75c66184552018a68"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:48.000000Z"/>
+<entry
+   committed-rev="2"
+   name="test1.bin"
+   text-time="2008-04-07T23:29:49.000000Z"
+   committed-date="2008-03-31T21:40:44.829012Z"
+   checksum="d41aa6297d61dd93911f2ab84d1e037f"
+   last-author="egbert"
+   kind="file"
+   prop-time="2008-04-07T23:29:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="test1.clk"
+   text-time="2008-04-07T23:29:49.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="f31dc5deb37b66f01c91cf056bd12337"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:49.000000Z"/>
+<entry
+   committed-rev="2"
+   name="test2.bin"
+   text-time="2008-04-07T23:29:49.000000Z"
+   committed-date="2008-03-31T21:40:44.829012Z"
+   checksum="b49611a14b62951e3de10e061c683696"
+   last-author="egbert"
+   kind="file"
+   prop-time="2008-04-07T23:29:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="test2.clk"
+   text-time="2008-04-07T23:29:49.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="f31dc5deb37b66f01c91cf056bd12337"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:49.000000Z"/>
+</wc-entries>

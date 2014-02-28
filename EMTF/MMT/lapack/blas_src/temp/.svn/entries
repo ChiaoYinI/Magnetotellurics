@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2008-03-31T22:45:53.781675Z"
+   url="http://mt.coas.oregonstate.edu/svn/EMTF/trunk/MMT/lapack/blas_src/temp"
+   last-author="anya"
+   kind="dir"
+   uuid="bcfa3012-84ba-4d04-8f02-a7023fe307d2"
+   revision="17"/>
+<entry
+   committed-rev="3"
+   name="blas2.shar"
+   text-time="2008-04-07T23:29:17.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="0365975117231b4bfc97db1c9084c98d"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:16.000000Z"/>
+</wc-entries>

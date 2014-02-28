@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2008-03-31T22:45:53.781675Z"
+   url="http://mt.coas.oregonstate.edu/svn/EMTF/trunk/MMT/lapack/qr_src"
+   last-author="anya"
+   kind="dir"
+   uuid="bcfa3012-84ba-4d04-8f02-a7023fe307d2"
+   revision="17"/>
+<entry
+   committed-rev="3"
+   name="ctrtrs.f"
+   text-time="2008-04-07T23:29:33.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="f1d01e3f30726c651bdd747d0a66fa63"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cunmqr.f"
+   text-time="2008-04-07T23:29:33.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="4164a8e6990b398564f718d1fda28361"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cgeqrf.f"
+   text-time="2008-04-07T23:29:33.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="1a33e35657eb5eadf065f5986d2cd24c"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sgesv.f"
+   text-time="2008-04-07T23:29:33.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="cb972f25dbf8fc66f435e3a6cefa63e4"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-04-07T23:29:33.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="4c2c5621e53cb9f58790e3e119dcf8f6"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:33.000000Z"/>
+</wc-entries>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="13"
+   name=""
+   committed-date="2008-04-25T23:07:24.506069Z"
+   url="http://mt.coas.oregonstate.edu/svn/EMTF/trunk/matlab/UTIL"
+   last-author="anya"
+   kind="dir"
+   uuid="bcfa3012-84ba-4d04-8f02-a7023fe307d2"
+   revision="17"/>
+<entry
+   committed-rev="13"
+   name="sysRspParam.m"
+   text-time="2008-05-14T21:08:32.000000Z"
+   committed-date="2008-04-25T23:07:24.506069Z"
+   checksum="8a43bdc837ca891e386b270eb7ce42bf"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-05-14T21:08:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pol_ell.m"
+   text-time="2008-04-07T23:29:03.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="611f63e87861d9d7a2f47a1466524fde"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pol_ellC.m"
+   text-time="2008-04-07T23:29:03.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="50a271d0af0fb6a36d578bb2d83abcc2"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="err_log.m"
+   text-time="2008-04-07T23:29:03.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="bf7b2f7fff58e4e2423d59b40668ee67"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="find_ib.m"
+   text-time="2008-04-07T23:29:03.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="2006d9f6eeaf9f0525d9085389d90ddb"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="testPath.m"
+   text-time="2008-04-07T23:29:03.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="eceff6ede41f0709b3a705ab95d72a96"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="polEllArr.m"
+   text-time="2008-04-07T23:29:03.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="687699f0f9b42b316b58a2834c9f9dcb"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:03.000000Z"/>
+<entry
+   committed-rev="13"
+   name="writeSp.m"
+   text-time="2008-05-14T21:08:32.000000Z"
+   committed-date="2008-04-25T23:07:24.506069Z"
+   checksum="73faf5faad106a5089d1a21b7eaa3392"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-05-14T21:08:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ellipse.m"
+   text-time="2008-04-07T23:29:03.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="91c07a53c7f4ed15f708f60c51261714"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fatleg.m"
+   text-time="2008-04-07T23:29:03.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="1cb70096d9fdacfe54eccfdf65255862"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="clear_win.m"
+   text-time="2008-04-07T23:29:04.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="bd72b97a4e1788fc85623d15b88c664f"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pltfrm.m"
+   text-time="2008-04-07T23:29:04.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="37034aa073485a8876cfbc283916acbd"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="chk_clr.m"
+   text-time="2008-04-07T23:29:04.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="f564893e1fff2fe7fb8d00fabe0252c9"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fatlines.m"
+   text-time="2008-04-07T23:29:04.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="3cfac47894f68a9982fa7c74aa51fe67"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="chngph.m"
+   text-time="2008-04-07T23:29:04.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="032e8cd7104281af3db6a68b8ea1ac1b"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="smooth.m"
+   text-time="2008-04-07T23:29:04.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="9f407f41a0bd3e1429ad54514f69b36e"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="replace_.m"
+   text-time="2008-04-07T23:29:04.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="485d69314f58bdde3f9f070fcd7f0008"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="stmonitr.m"
+   text-time="2008-04-07T23:29:04.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="7c52957abfd5320ff8d49292df2509b0"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:03.000000Z"/>
+<entry
+   committed-rev="8"
+   name="setTlim.m"
+   text-time="2007-07-19T04:45:44.000000Z"
+   committed-date="2008-04-07T23:36:41.523001Z"
+   checksum="3ef6a55d5642535931436fbe75f636b2"
+   last-author="egbert"
+   kind="file"/>
+<entry
+   committed-rev="3"
+   name="polEllTst.m"
+   text-time="2008-04-07T23:29:04.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="726af979bd490b4b378f4c5693e9ea21"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="get_mode.m"
+   text-time="2008-04-07T23:29:04.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="5e6cb28101e73ddafde835e89788b558"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:03.000000Z"/>
+</wc-entries>

@@ -1,0 +1,9 @@
+for k = 1:365
+   if(good(k))
+      D = 10*log10(SDMS{k}.Sig(iComp,:)'./SDMS{k}.var(iComp,:)');
+      Di = abs(imag(D));
+      if(any(Di > 0))
+      fprintf(1,'%d',k)
+   end
+end
+end

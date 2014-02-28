@@ -1,0 +1,350 @@
+Here are some notes on the matlab functions in
+subdirectory TVAR.  These are for computing and
+plotting signal and residual amplitudes as time-frequency
+plots.  The basic strategy has been to develop a small
+number of fairly general data structures and operations
+which could in principal be used for a very broad range
+of different tasks, and then to write some much more specific
+driver routines that require minimal input and have limited
+flexibility.  Many routines also have optional additional
+input or output arguments which allow added flexibility.
+So there are some standard things that should
+be very easy to do, and at the same time some of the lower
+level structures and operations can be used (with a bit of
+coding) to develop new or different applications or plots.
+(This all should probably be formalized to object oriented
+classes, objects, methods  ... but I don't understand 
+quite how to do this yet!)   
+
+Note also that this is developed in part based
+on matlab routines in the "runCP" interactive plotting
+and processing interface.  Some routines from this are required,
+and some conventions from this package were retained here.
+
+There are two primary "data structures" used: F/T data
+sections and frequency domain TFs.
+
+I. DATA STRUCTURES
+
+1) F/T data section
+The most fundamental contains Fourier coefficients or amplitude
+and associated meta data.  This structure is used to load FCs 
+from the FC/*f# files produced by dnff, and also for storing 
+frequency domain residuals, and time or frequency band averaged
+amplitudes.  The fields of an "FT" (frequency/time)
+structure are:
+
+data(NCH,NT,NF)  = complex (FC) or real (amplitude) data for 
+		NCH channels, NT time segments, and NF frequencies
+t(NT)		= time of each segment (days since Jan 1 0:00 UT)
+f(NF)		= frequency of each FC (hz)
+ch_id(NCH,4)    = character strings giving channal names (Hx, etc.)
+sta(NCH,4)      = character strings giving site names for each channel
+nch		= total number of channels (i.e., NCH)
+SysTF		= system transfer function table for the channels
+		   this can be used to transform between measurement units
+		   (counts) and physical units (nT, etc.).  In the simplest
+		   application the data array is obtained from FC files
+		   which are in physical units, and FT.SysTF.PhysU = 1
+		   to indicate this.  FT.SysTF.freq and FT.SysTF.TF can be
+		   used to convert FCs back to measurement units.
+amp		= 0 (for complex FCs), 1 for real amplitudes
+
+To create a basic FT structure with Fourier coefficients from
+FC files use:
+
+FTsetup.m
+   %  Usage: [FT] = FTsetup(FileNamesFC,id,ifreq,csta);
+   FileNamesFC = list of FC file names (cell array of length nsta)
+   id = decimation level
+   ifreq = list of frequency numbers, following EMTF conventions
+   csta = list of station names (cell array of lenght nsta)
+
+This routine calls: fc_get.m, fc_open.m, mk_isets.m, mk_start_freqs.m,
+and unpack.m to read FC files output by dnff.
+
+A thought:  the data array could be created inside matlab, instead
+of being loaded from FC files.  The array could be created by
+FTing sections of data, or through a wavelet transform.
+
+NOTE: sysTFsetup.m is called to set up the system transfer function
+(by reading the corresponding files in YEAR/sysTF/*.stf)
+
+2) Transfer functions
+A second fundamental data structure is the transfer function.
+For historical reasons there are two different types of transfer
+function data structure, and they are not interchangeable (here
+is one place where making these structures into formal objects
+in matlab would help!)  The historical reasons relate to the
+"Transfer Function" block on the runCP interface.  This part
+of the interface is a fairly complex gui for setting up and interactively
+defining an array transfer function.  To make use of this (in
+the future ... none of the matlab codes described here actually
+use this interface) we retained the structure used for the runCP
+TF definition block.  Also: the TF structure is not going to be
+so easily understood by most users.  The representation is based
+on the "response space" or multiple station formulation (even if
+other methods are used to derive the TF, they can always be represented
+in this way, so this is how I represent everything).
+
+To create a basic input TF structure use TFsdmSet.m
+  Usage: [TFres] = TFsdmSet(SDMfile);
+         [TFres] = TFsdmSet(SDMfile,Kout);
+         [TFres] = TFsdmSet(SDMfile,Kout,Kin);
+         [TFres] = TFsdmSet(SDMfile,Kout,Kin,DIM);
+
+In the simplest application this is used to load eigenvectors
+and channel noise variances from the specified SDM (*.S0) file
+and a default array TF structure is created (use all data
+channels to predict all data channels, using the two dominant
+eigenvectors).  The optional arguments:
+    Kout = list of channel numbers to predict.
+    Kin  = list of channel numbers to use for prediction.
+          For example, assume (as we do in some of the driver
+          scripts) that the first site is PKD with 7 channels
+          in the order Hx, Hy, Hz, Ex1, Ey1, Ex1, Ex2, and the
+          second is SAO with channels ordered Hx, Hy, Hz, Ex, Ey,
+          and suppose we wish to predict Parkfield magnetics
+          using all channels at SAO.  Then we set 
+		Kout = [1 2 3]  (PKD mag channels)
+		Kin = [8:12]  (all SAO channels)
+    DIM = dimension of TF : how many evecs to use
+		NOTE: setting this greater than 2 could lead
+		to very strange results if unwarranted or
+                if the number of predicting channels (Kin)
+                is small.  Some refinements to predictor methods
+		will be required to make use of this option safe.
+    NOTE: Kout, Kin and DIM just set parameters in the data structure
+           that are used by other routines.  Changing these does
+           not effect the full multiple station TF info (i.e.,
+           the eigenvectors and channel noise variances) stored
+           in the TF.  So these can be changed at any time after
+           calling TFsdmSet.
+
+An example of the full set of fields defined in this basic array TF
+data structure follows:
+        type: 2
+       PhysU: 1
+    FileType: 'SDM'
+    FileName: '/home/server/pi/homes/egbert/PKDSAOg/data/2004/SDM/270_00.S0'
+        Name: ''
+         dim: 2
+          nf: 57
+         nch: 12
+       ch_id: [12x6 char]
+         sta: [12x4 char]
+         Kin: [1 2 3 4 5 6 7 8 9 10 11 12]
+        Kout: [1 2 3]
+           T: [57x1 double]
+           V: [12x12x57 double]
+         var: [12x57 double]
+       Resid: 1
+       nTseg: 1
+       CLEAN: 0
+        ClnX: 0
+           
+Again, this data structure was developed as part of the runCP 
+interface.  In general, TFs from other sources are supported
+(e.g., "type" and "FileType"), and the TF could even be
+between channels in measurement coordinates (then set PhysU = 0).
+V gives the eigenvectors (all of them), var the channel
+noise variances, and T the periods that the SDM is computed
+for.  ch_id and sta identify the channels (Hx, etc.; site).
+Some of the indicator variables are not used in these
+"TVAR" routines.
+
+A second type of TF data structure is created when you call
+  TFcompatFT.m
+
+  Usage: [TFft] = TFcompatFT(FT,TF);
+   Constructs  mapping between data channels in FT and TF,
+    and outputs compatible TFft (including correct PhysU, order, etc.
+     + indices for data channels needed for prediction filter
+     and then constructs an actual TF (usable when all channels in KallIn are
+      available
+   NOTE: output structure is NOT the same as input!
+   Output structure: TF.Kall = list of data channels needed and available
+           in FT (in/out)
+     TFft.KallIn/Out : elements within Kall to use as input/output
+     TFft.V, TF.var TF : info for channels in Kall (same order)
+     TFft.SystTF : system parameter structure for output data channels
+     TFft.A  : TF matrix mapping input to output channels
+     TFft.indfData :  indicies in TF array A to use for each frequency in FT
+
+The idea here is that this uses channel ids in both the FT and TF structures
+to match channels in the FC list with those in the TF (they will
+generally already be alligned in the simple applications here, but
+this added flexibility had already been developed, and was thus retained).
+Also, at this stage we strip off the unneeded channels and actually
+construct the mapping from input to output channels.  Finally, some
+precomputation of bin indicies needed to interpolate from the 
+frequencies where TF estimates are available to the actual FT frequencies
+is accomplished here.  To do this TFcompatFT calls:
+   InterpTF_FT.m
+(At present we use nearest neighbor interpolation;
+for more complex interpolations we might consider changing what
+is precomputed here).  
+
+II. GENERAL UTILITY ROUTINES
+
+There are a few general utility routines developed so far.
+These include:
+
+FTavg.m :: a routine that will compute (RMS) amplitudes for
+  a possible subset ChUSe of data channels in an FT structure,
+  averaged over nAvg consecutive FCs, and over frequency
+  bands defined by iband.
+
+  Usage: [FTamp] = FTavg(FT,ChUse,nAvg,iband);
+
+  The result is returned in another FT structure with times
+  and frequency fields replaced by appropriate averages.
+    iband is optional ... default is single frequency bands
+    nAvg is optional  ... default is 1
+    ChUse is optional ... default is all channels
+  Thus: in simplest use, with one input argument, this just
+  computes amplitudes of each FC, retaining all other FT
+  structure meta-data.
+
+sdmFilt.m  :: a routine that applies the TF TFft to the
+  multi-channel FCs in FT to compute residuals (or predicted,
+  if TFft.RESID = 0).
+
+  Usage: [FTres] = sdmFilt(FT,TFft);
+
+  The result is returned in another FT structure.  Call FTavg
+  after this call to time or band average and compute amplitudes. 
+
+III. DRIVERS
+
+These drivers start off fairly general (with many options, uses)
+and get more and more specific. The first two respectivelly
+compute, and plot amplitudes of signal and/or residuals.
+These call the basic and utility routines, + multiPlot
+(from the EQAR subdirectory).  The rest are higher level
+drivers that call these routines to do more
+specific computations/plotting.
+
+SigResAmp.m  
+
+   This is the most general driver routine.
+   It computes, and optionally plots residual and/or signal 
+   amplitude for selected channels using FC files for a single
+   segment.  In the simplest use the SDM file to use is the
+   *.S0 (SDM) file estimated from the FC files in the list,
+   assuming that all directory structures are as in the standard
+   runCP interface.  Optionally one can set up the TF separately
+   and input this.  With this option one could use the same TF
+   estimated from a large set of data to compute residuals for
+   a number of processing segments.
+
+   Usage: [FTsigAmp,FTresAmp] = SigResAmp(FCfiles,OPTIONS,TF);
+                          SigResAmp(FCfiles,OPTIONS,TF);
+       [FTsigAmp,FTresAmp] = SigResAmp(FCfiles,OPTIONS);
+                           SigResAmp(FCfiles,OPTIONS);
+
+   The OPTIONS data structure, which controls functioning of 
+   the routine has the following fields.  These are used to 
+   define which channels are used for prediction/residuals, 
+   band and time averaging, and some plotting details
+
+   OPTIONS.dir         : root processing output directory
+                               (contains FC, TS, etc.)
+   OPTIONS.Kin, Kout   : channels used for prediction, residuals
+                       these are numbers, following the channel
+                         list constructed from each FC file in
+                         the order given.  For standard case these
+                         are PKD: Hx, Hy, Hz, Ex1, Ey1, Ex2, Ey2
+                             SAO: Hx, Hy, Hz, Ex, Ey
+                         NOTE: Kin, Kout override Kin set in optional
+                           input TF
+  OPTIONS.navg         : number of time segments to average
+  OPTIONS.id           : decimation level
+  OPTIONS.iband        : frequency bands for frequency averaging
+  OPTIONS.plotAmp      : = 1 to plot signal amplitudes
+  OPTIONS.plotRes      : = 1 to plot residual amplitudes
+                        (Idea is that one could omit plotting in
+                         this routine, just return the time/freq
+                         averaged powers and plot these with a
+                         different routine)
+  OPTIONS. title, NormalizeSig, NormalizeRes ... control plotting
+   NOTE:  FTsigPwr and FTresPwr are optional outputs, data structures of
+   FT type containing averaged signal and residual power  ... omit
+   these for standard plotting when there is no need to save
+   residual or signal power for other purposes.  OR: set OPTIONS.plotAmp
+   and OPTIONS.plotRes = 0 and use this routine to compute signal and
+   residual amplitudes for one processing segment, as part of a script
+   to compute these for longer time segments (e.g., see resplt2hr_Day.m or
+   resplt_logf.m).
+
+SigResPlot.m
+
+   This plots residual and/or signal power in FT structures 
+   created by SigResAmp.m 
+
+   Usage: SigResPlot(FTsigAmp,FTresAmp,OPTIONS);
+
+   OPTIONS needs to have these fields set:
+   plotAmp, plotRes = 0/1 to plot or not plot signal residuals
+   NormalizeSig, NormalizeRes, title
+
+   By setting plotAmp and/or plotRes = 1, one or both 
+   (signal or residual) plots are produced.
+
+resplt2hr.m
+
+  The basic plotting script: make amplitude plots for a single time
+     segment/decimation level (40 hz data), with no time or frequency averaging
+
+  Usage:  resplt2hr(DATE,site,EH,id)
+
+  Inputs: DATE structure (wtih fields .year .day .hour),
+            site (PKD or SAO),
+            EH  = 'E' or 'H'
+            id = decimation level
+  plots signal amplitiude and normalized residuals for a 2 hour time segment
+  starting at DATE, for the E or H channels at one site
+  This script is a simple driver, with many parameters hard-coded
+
+  to use need to set root PKDSAO directory PKDSAOdata
+
+
+resplt2hr_Day.m
+
+  Plotting script to make amplitude plots for all 2 hr
+     40 hz segments for one day (starting 0:00 UT), single decimation
+     level, with preset time averaging (but no frequency averaging)
+
+  Usage:  resplt2hr_Day(date,site,EH,id)
+
+  Inputs: date structure (wtih fields .year .day,
+            site (PKD or SAO),
+            EH  = 'E' or 'H'
+            id = decimation level
+  Plots signal amplitiude and normalized residuals for one 
+   day of 2 hour time segments for the E or H channels at one site
+  This script is a simple driver, with many parameters hard-coded
+
+  to use need to set root PKDSAO directory PKDSAOdata
+
+
+resplt_logf.m
+
+  Plotting script to make amplitude plots for all 2 hr
+     40 hz segments for one day (starting 0:00 UT), all decimation
+     levels, with preset time and ferquency averaging
+
+   Usage:  resplt2hr_logf(date,site,EH,bsFile)
+
+   Inputs: date structure (wtih fields .year .day,
+            site (PKD or SAO),
+            EH  = 'E' or 'H'
+            bsFile = band set up file
+
+   Plots signal amplitiude and normalized residuals for one
+   day of 2 hour time segments, averaged into logarithmically
+   spaced frequency bands/decimation levels specified in bsFile
+
+   This script is a simple driver, with many parameters hard-coded
+
+   Before use set : PKDSAOdata to root PKDSAO data directory

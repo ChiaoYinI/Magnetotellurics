@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4"
+   name=""
+   committed-date="2008-03-31T23:02:59.424873Z"
+   url="http://mt.coas.oregonstate.edu/svn/EMTF/trunk/examples/results"
+   last-author="anya"
+   kind="dir"
+   uuid="bcfa3012-84ba-4d04-8f02-a7023fe307d2"
+   revision="17"/>
+<entry
+   committed-rev="2"
+   name="TEST_1-2.S0"
+   text-time="2008-04-07T23:29:43.000000Z"
+   committed-date="2008-03-31T21:40:44.829012Z"
+   checksum="d3f5f262504e1699635d488b84a09a44"
+   last-author="egbert"
+   kind="file"
+   prop-time="2008-04-07T23:29:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="test2.zss"
+   text-time="2008-04-07T23:29:43.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="998a2b82d2cfd10935d80559dd8ea87f"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="test2r1.zrr"
+   text-time="2008-04-07T23:29:43.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="266284f2730bb71fa87d47a7ccf93c4a"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="test1.sdm"
+   text-time="2008-04-07T23:29:43.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="e1a68906ecf17881677fdbc7e6857a0a"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:42.000000Z"/>
+<entry
+   committed-rev="2"
+   name="TEST_1-2.Pw"
+   text-time="2008-04-07T23:29:43.000000Z"
+   committed-date="2008-03-31T21:40:44.829012Z"
+   checksum="8f05311446d685a2291f5cd935ad4520"
+   last-author="egbert"
+   kind="file"
+   prop-time="2008-04-07T23:29:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="test2.sdm"
+   text-time="2008-04-07T23:29:43.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="520d7cdbd14b8b1763876deeca524693"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="test2r1.sdm"
+   text-time="2008-04-07T23:29:43.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="213cb427a500ca3ffc3cdf5e389053dd"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="TS1_TEST_1-2.zmm"
+   text-time="2008-04-07T23:29:43.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="88ae2f8090e5a74c3d495e30e1ca7b44"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="TS2_TEST_1-2.zmm"
+   text-time="2008-04-07T23:29:43.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="4a128b582692de8cee92eb9bbd5b6d3a"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="TEST_1-2.M"
+   text-time="2008-04-07T23:29:43.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="c75a0264ba462c5b15064f4a36189e95"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="TEST_1-2.SN"
+   text-time="2008-04-07T23:29:43.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="d88fb132a90c2498f0cbf7c3c60254db"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="test1.zss"
+   text-time="2008-04-07T23:29:43.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="e883feb458e4497b6bee4d3eb326d71d"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:42.000000Z"/>
+</wc-entries>

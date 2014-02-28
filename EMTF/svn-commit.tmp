@@ -1,0 +1,11 @@
+A small fix in bad record file reading in tranmt,
+to support marking bad segments with decimated data files
+in addition to undecimated files.
+
+--This line, and those below, will be ignored--
+
+M    D/Makefile
+M    T/Makefile
+M    T/tranmt.f
+M    T/badToUse.f
+M    MMT/Makefile

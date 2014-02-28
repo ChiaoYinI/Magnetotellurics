@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2008-03-31T22:45:53.781675Z"
+   url="http://mt.coas.oregonstate.edu/svn/EMTF/trunk/examples/EMI-MT1/DATA"
+   last-author="anya"
+   kind="dir"
+   uuid="bcfa3012-84ba-4d04-8f02-a7023fe307d2"
+   revision="17"/>
+<entry
+   committed-rev="3"
+   name="d05l1_ts1.clk"
+   text-time="2008-04-07T23:29:45.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="071574917fe3f9d7f43415390e4733f0"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:44.000000Z"/>
+<entry
+   committed-rev="2"
+   name="d05l1_ts1.mt1"
+   text-time="2008-04-07T23:29:45.000000Z"
+   committed-date="2008-03-31T21:40:44.829012Z"
+   checksum="cbd0e80cf544afd878daa82baa028b69"
+   last-author="egbert"
+   kind="file"
+   prop-time="2008-04-07T23:29:45.000000Z"/>
+</wc-entries>

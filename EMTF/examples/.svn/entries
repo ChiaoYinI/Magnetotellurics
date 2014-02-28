@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4"
+   name=""
+   committed-date="2008-03-31T23:02:59.424873Z"
+   url="http://mt.coas.oregonstate.edu/svn/EMTF/trunk/examples"
+   last-author="anya"
+   kind="dir"
+   uuid="bcfa3012-84ba-4d04-8f02-a7023fe307d2"
+   revision="17"/>
+<entry
+   name="MT"
+   kind="dir"/>
+<entry
+   name="SP"
+   kind="dir"/>
+<entry
+   name="FC"
+   kind="dir"/>
+<entry
+   name="CF"
+   kind="dir"/>
+<entry
+   committed-rev="4"
+   name="options.cfg"
+   text-time="2008-04-07T23:29:50.000000Z"
+   committed-date="2008-03-31T23:02:59.424873Z"
+   checksum="b4f302baa24d09e43b94211a717e9864"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:41.000000Z"/>
+<entry
+   name="sensors"
+   kind="dir"/>
+<entry
+   committed-rev="4"
+   name="options_RR.cfg"
+   text-time="2008-04-07T23:29:50.000000Z"
+   committed-date="2008-03-31T23:02:59.424873Z"
+   checksum="4f3af6558a570c5bc8c6036f240a1fc8"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:42.000000Z"/>
+<entry
+   name="MMT"
+   kind="dir"/>
+<entry
+   committed-rev="4"
+   name="README"
+   text-time="2008-04-07T23:29:50.000000Z"
+   committed-date="2008-03-31T23:02:59.424873Z"
+   checksum="2f240119e0e106c45100760572935f95"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:42.000000Z"/>
+<entry
+   name="results"
+   kind="dir"/>
+<entry
+   committed-rev="4"
+   name="tranmt.cfg"
+   text-time="2008-04-07T23:29:50.000000Z"
+   committed-date="2008-03-31T23:02:59.424873Z"
+   checksum="bfe092b0f873755d3d8af205f10dcfdb"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:44.000000Z"/>
+<entry
+   committed-rev="4"
+   name="INSTALL"
+   text-time="2008-04-07T23:29:50.000000Z"
+   committed-date="2008-03-31T23:02:59.424873Z"
+   checksum="11f414cac0e5c83a932de4a87cab05dc"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:44.000000Z"/>
+<entry
+   name="bin"
+   kind="dir"/>
+<entry
+   name="EMI-MT1"
+   kind="dir"/>
+<entry
+   name="DATA"
+   kind="dir"/>
+<entry
+   committed-rev="4"
+   name="paths.cfg"
+   text-time="2008-04-07T23:29:50.000000Z"
+   committed-date="2008-03-31T23:02:59.424873Z"
+   checksum="b467ff775729d960d5ffc4ce42d9235c"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:50.000000Z"/>
+</wc-entries>

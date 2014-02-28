@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="17"
+   name=""
+   committed-date="2008-05-06T20:08:21.355968Z"
+   url="http://mt.coas.oregonstate.edu/svn/EMTF/trunk/matlab/ZPLT"
+   last-author="egbert"
+   kind="dir"
+   uuid="bcfa3012-84ba-4d04-8f02-a7023fe307d2"
+   revision="17"/>
+<entry
+   committed-rev="17"
+   name="writeZfile.m"
+   text-time="2008-05-06T18:02:34.000000Z"
+   committed-date="2008-05-06T20:08:21.355968Z"
+   checksum="b9acdb786ac0913d4fa176b3dea09008"
+   last-author="egbert"
+   kind="file"/>
+<entry
+   committed-rev="3"
+   name="em_menu.m"
+   text-time="2008-04-07T23:28:52.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="89f0797696012a854df0d7014d08d13f"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pltrhom.m"
+   text-time="2008-04-07T23:28:52.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="614eecbe338779827687bfa4aecbf8fe"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rpltmtF.m"
+   text-time="2008-04-07T23:28:52.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="c03b098b6d8208f6f96368ab61ab9091"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Zstruc.m"
+   text-time="2008-04-07T23:28:52.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="0bac707cafad165bf51f18a0bf4a4b9b"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="apresplt.m"
+   text-time="2008-04-07T23:28:52.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="c785161f946da989b618e9b631c1a963"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="z_mtem.m"
+   text-time="2008-04-07T23:28:53.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="835ee4080cc2e6b05605033f89cf47d9"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="xform.m"
+   text-time="2008-04-07T23:28:52.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="294257175a17d9953402ba37f146f996"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rot_z.m"
+   text-time="2008-04-07T23:28:53.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="fca3bb5d875001aab286b2a95e804030"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Z_in.m"
+   text-time="2008-04-07T23:28:53.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="03a275e382d4aeaa470e4fb69aaa157e"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="printCB.m"
+   text-time="2008-04-07T23:28:53.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="5b259b06ffb3b11de28dd557544bec39"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rpltem.m"
+   text-time="2008-04-29T00:33:29.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="3cf35cfecb9570d8359327e02faa9280"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ecomp.m"
+   text-time="2008-04-07T23:28:53.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="953260ebf813ea6f0a625eeed32d3d48"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mt_menu.m"
+   text-time="2008-04-07T23:28:54.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="e2d0a64e2bc8828affbe5fac3481fe82"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="imp_ap.m"
+   text-time="2008-04-07T23:28:54.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="58a3e47df8edc0bb8ebe042e31fc6e25"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="listZ.m"
+   text-time="2008-04-07T23:28:54.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="d3112a7561d7a6e005d6ff00b39d261a"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ch_pair.m"
+   text-time="2008-04-07T23:28:54.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="6086635ea524e2f0463727cc991ac967"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:51.000000Z"/>
+<entry
+   committed-rev="17"
+   name="readZfile.m"
+   text-time="2008-05-06T18:19:09.000000Z"
+   committed-date="2008-05-06T20:08:21.355968Z"
+   checksum="ecca87bca00c50662b39fdcbf51220ee"
+   last-author="egbert"
+   kind="file"/>
+<entry
+   committed-rev="3"
+   name="ap_res.m"
+   text-time="2008-04-07T23:28:54.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="87d28ba7d83020b8b4e9d4b7a638bf79"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="MTmenuCB.m"
+   text-time="2008-04-07T23:28:54.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="b51f9611867b1f46f3424315af1f6d95"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="globinc.m"
+   text-time="2008-04-07T23:28:54.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="459e20d58b3c141d7f78e74d5fb9f18a"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="addband.m"
+   text-time="2008-04-07T23:28:55.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="9e5bdd3a49838df48ded82659c7ed817"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Zstruct.m"
+   text-time="2008-04-07T23:28:55.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="001ba61c709651b70e183faca1d138f4"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="set_lims.m"
+   text-time="2008-04-07T23:28:55.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="4db90cebdc6ec96737cfa8754eeedd6d"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="set_fig.m"
+   text-time="2008-04-07T23:28:55.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="1c94fed0f656984e09d3b3d726094023"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="z_to_imp.m"
+   text-time="2008-04-07T23:28:55.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="1158d612a46112e64f7e71faee0fdf8f"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:52.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mkpltind.m"
+   text-time="2008-04-07T23:28:55.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="3daee6ae7f22f30ee8e68cac1fbeb4b8"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:52.000000Z"/>
+<entry
+   committed-rev="17"
+   name="corChangeZ.m"
+   text-time="2008-05-06T18:38:09.000000Z"
+   committed-date="2008-05-06T20:08:21.355968Z"
+   checksum="872d9040754fb3a669eaf91906842004"
+   last-author="egbert"
+   kind="file"/>
+</wc-entries>

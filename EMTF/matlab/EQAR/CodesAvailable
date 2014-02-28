@@ -1,0 +1,257 @@
+Following is a list of matlab post-processing and plotting codes
+that I have developed for looking at results from EMTF
+multiple site, single site, and remote reference processing.
+These codes can be used to plot time/frequency sections of
+apparent resistivities, phases, and various things which can
+be computed using the MMT output files.  Most codes have lots
+of options, which are invoked by editing matlab scripts in this
+directory.  As long as what you plot is very similar to the
+examples here, these codes are pretty much turnkey: edit the scripts
+described below, and run.  If you want to plot a different variable,
+plot something in a different way, or do some pre-processing differently,
+you will need to understand how the codes work, at least at the outer
+levels, to make required changes.  Following is a summary of what
+can now be done with the codes, and a bit of explanation of how
+to use them.  
+
+NOTE: I have processed 1hz data in 1 day segments, and 40 hz data
+in 2 hour segments.  The matlab driver scripts all assume that 
+there are already a more-or-less continuous sequence of processed
+results (for a sequence of days for 1 hz, or for a sequency of 2hr
+segments for 40 hz), and that all file names follow the default
+conventions used in the PKDSAO automated processing codes.
+The basic philosophy is to have lower level codes 
+that are fairly general, and then call these with some fairly
+specific codes which have been tuned to do more specific tasks
+In this way it should be reasonably easy to add new plotting 
+and post proccesing features, as outlined below.
+
+The codes here use scripts from EMTF/EQAR, TVAR, IN, SDM;
+all of these directories have to be in the matlab search path.
+
+I. Plotting a Sequence of Apparent Resistivities and Phases:
+
+The main driver for this is called
+
+	RhoPhiPlot.m
+
+This is a matlab script, that will read in a set of impedance files
+(single site, remote reference, multisite) computed for a sequence
+of time segments, and plot off-diagonal rho/phi for one site.  There
+are separate plots made for each component, in color pseudo-section form.
+
+Details of what is plotted are controlled by editing the matlab script:
+
+	plotWhat.m
+
+Here you set the time window, which site to process, 40 hz or 1 hz,
+and a number of other parameters to tell the code which set 
+of impedance files you want to plot in section form.  You also
+set an output plot directory in plotWhat.  If SAVEplots = 1 all plots are
+saved in this directory, using file names generated automatically
+in RhoPhiPlot.   
+
+RhoPhiPlot.m calls:
+
+	RhoPhiFileList.m (formerly mkFileList.m)
+
+to make a list of files.  You could make a list of files some other way ...
+but note that some variables set in plotWhat.m will still be needed
+by RhoPhiPlot.m.  This can be worked around pretty easily I guess.
+
+There is one other file that you might want to edit:
+
+	CaxisLims.m
+
+This controls the color scale used in the plots.  If you want differnt
+ranges for various plots, edit this file.  Some other details in the
+plot appearance could be changed by editing RhoPhiPlot.m, and
+ftPlot.m which actually does the plotting.  
+
+ 
+
+(b) ftPlot.m 
+
+Usage [h,tMed,fMed] = ftPlot(S,plotWhat,plotOpt)
+
+ftPlot.m is set up to plot several specific things (rho, phi, system TFs)
+with and without time averaged parameters subtracted.  This plotting function
+extracts the appropriate impedance elements (based on indicies in
+input argument cell "plotWhat{2}") and computes rho or phi 
+(or some other thing, based on character string in "plotWhat{1}).
+The routine does a number of things to make the plots look reasonably
+nice, at least for the specific things it has been used for.  It is
+not that general actually!
+
+Some plotting options are set in structure "plotOpt" passed to ftPlot.
+To make reasonable plots these have to be set to reasonable values.
+For plots of new parameters, new options might need to be defined,
+set in the calling routine, and tuned by trial and error.  This could
+be a starting point for plotting other things, but parameters would
+undoubtedly need to be changed.
+
+One parameter in plotOpt is "subMed".   The value set in plotWhat.m,
+is copied into plotOpt for all plots made.  Set this to 1
+to subtract median over time (i.e., to plot residuals).  
+Note that using this option automatically changes plotting 
+limits and titles (set in RhoPhiPlot).
+
+Setting plotOpt.tMean to something (of length nFreq)
+causes the input tMean to be subtracted from the corresponding
+frequency bands before plotting.  This could be set to some sort of
+independently computed long term mean rho/phi instead of subtracting
+the median of the plotted variable.  This feature has not been
+used, and may (probably does) need further debugging.
+
+
+Arguments of ftPlot are given below:
+
+Inputs:
+1)  S : cell array of data structures, one cell for each time segment
+2)  FT : structure containing time info for labelin x axis,
+           frequency info for labeling y axis
+3)  plotWhat a cell array containing a keyword defining what
+         should be plotted (e.g., rho, phi, etc.) and any parameters
+         needed to compute this from data in S (indicies of impedance)
+4)  plotOpt structure giving  plotting options,k
+                     such as specified caxis limits, titles
+                     control parameters for scaling,
+                     subtracting time mean, etc.
+
+Outputs:
+1)  figure handle; h = -1 on (some) errors
+2)  tMed = median (over time) of plotted variable as a function of frequency
+3)  fMed = median (over frequency) of plotted variable as a function of time
+
+II.  Plotting SDM Results
+
+These codes produce time/frequency section plots of various
+quantities that can be computed from the SDM output files *.S0
+(stored in subdirectory SDM).  The plots are somewhat
+similar to the sections of rho/phi produced in (I), but the codes
+are a bit different.  In particular, most of the plots made here
+have multiple variables plotted on a single page (again as time/frequency
+sections).  Codes function in a similar way in that you have to
+first define what you want to plot (time segment, 1 or 40 hz band,
+year, what variables).  However, the structure of the code
+is somewhat different.  Drivers can be set up to make specific plots;
+these then call a series of lower level generic functions which make
+lists of file names, read in *.S0 files, do various computations,
+and finally make plots.  Codes are set up to make it fairly easy
+to do add new plotting featurs (computation of new/different quantities
+that might be defined in terms of the SDMs and error variances)
+or to change plot appearance.
+
+The  driver is called 
+
+    SDMsection.m
+    
+This script sets up what to plot, and calls more general lower
+level functions to define file names, load data, and plot.  It can be
+called to do a sequence of segments of constant length; e.g., it can plot
+60 days of 2 hour 40 hz processing segments, 15 days to a page (so 4 pages
+for each file).  The example given just plots for a single page.  Note
+that a few hundred segments is about all that is reasonable to put on one
+page.  For 60 days of 2 hour segements (12/day) there would be 720 segments,
+and it is probably best to chop this up somewhat.  A full year of 1 hz data
+is reasonable however.  Note also that the code is not set up now to
+plot a sequence of segments that covers more than one year (or crosses the
+1 Jan boundary).  This feature could be added, as for RhoPhiPlot.
+
+Following is a summary of the lower level functions which are 
+called by SDMsection.
+
+(a) SDMmerge.m
+
+This function makes a list of SDM output files (1 hz 1 day segments or
+40 hz 2 hour segments) for a sequence of consecutive segments
+in the range of days dayOne - dayEnd for year YEAR.  BAND = 1 or 40
+to set sampling band; SAVE = 1 to save the data output data
+structures to a file.  Output: cell arrays SDMS, SDMHD;
+also returns array Day giving the start time for each file
+in decimal days (0 is 0:00 1 Jan), and a 0/1 indicator
+array for "good" data (defined as finding the sdm file, with
+the "normal" number of frequency bands, and data channels).
+Call this routine to load a sequence of SDMs.
+
+%   Usage: [SDMS,SDMHD,Day,good] = ...
+%        SDMmerge(dayOne,dayEnd,YEAR,BAND,SAVE);
+%
+
+(b) SDMavg.m 
+
+This function takes input cell arrays of SDM (and header) data
+structures (i.e., what is returned by SDMmerge), and an optional list 
+of "good" SDMs to use, and computes an average SDM structure.  Optional
+argument "grouping" can be used to change definition of local noise,
+in the usual way.  This defaults to 'standard'.  There is no check for 
+consistency/correctness of SDMS in the cell array.  If this might
+be a problem (i.e., if some SDMs have missing data channels) this
+needs to be checked before calling, and flagged by setting 
+corresponding element of array good(k) = 0.  This routine is not
+needed for most simple plots of SDM results.
+
+%  Usage:  [SdmAvg] = SDMavg(SDMS,SDMHD,good,grouping);
+
+(c)  FTsdmPlotCases.m
+
+This is a script, in which all of the detailed instructions for specific
+plots are given.  Before calling this script, SDM structures must be defined
+(by calling SDMmerge, or by loading a saved SDM time section structure).
+Also variable "plotType" must be set to one of a pre-defined set of character
+strings:
+PLOTS = {'SDM Eigenvalues',...
+	'Magnetic Field SNR',...
+	'Electric Field SNR',...
+	'Canonical Coherences: PKD vs. SAO',...
+	'Canonical Coherences: H vs. E', ...
+	'Average Modes'};
+FTsdmPlotCases uses the value of "plotType" to choose which block of code
+to execute. New plots can be added to this list, with instructions for what to plot, 
+including neccesary computatins, plot labels, etc., added to FTsdmPlotCases.
+The driver script gives an example where all of the possible plots are made.
+All of the code to extract specific variables from the SDM section structures,
+and to do any needed preliminary computations (these might be extensive!) are
+in this script.  Only one case block is executed on each call.
+
+Here is an example of editing FTsdmPlotCases.m to change what
+is plotted.  Initially, for Magnetic field SNR, only the horizontal
+fields were plotted.  To add vertical fields also, the following
+changes were made:  
+
+(i) edit FTsdmPlotCases.m, modifying case
+block 'Magnetic Field SNR' as follows
+  OLD CODE:
+     iComp = [SDMHD{k1}.ih(1) SDMHD{k1}.ih(1)+1 ...
+         SDMHD{k1}.ih(2) SDMHD{k1}.ih(2)+1];
+     nComp = 4;
+  NEW CODE:
+     iComp = [SDMHD{k1}.ih(1) SDMHD{k1}.ih(1)+1 SDMHD{k1}.ih(1)+2 ...
+         SDMHD{k1}.ih(2) SDMHD{k1}.ih(2)+1 SDMHD{k1}.ih(2)+2];
+     nComp = 6;
+
+This just added additional components to plot log magntiudes of signal
+power.  Titles, labels are automatically generated.  (Not all changes
+are this easy, but many variants on the plots generated can be easily 
+generated.)
+
+
+(d) multiPlot.m
+
+This is a high level plotting script for making a set of time/frequency
+pseudocolor plots on a single page.   The data array for the 2D section,
+conformable arrays that define X and Y axes, and cell array giving plot
+options must be set up before calling multiPlot.  FTsdmPlotCases does this
+for the cases listed above.  This routine is also used by signal/residual
+plotting scripts in subdirectory TVAR.
+
+%   USAGE:  multiPlot(D,T,F,OPTIONS,linT);
+
+D(nT,nF,nPlot) : array to plot; each plot is nT x nF
+T(nT) : time
+F(nF) : period or frequency (usually logarithmically spaced)
+OPTIONS : cell array of structures (one for each plot)  
+    giving axis and title labels, limits, etc
+linT is an optional argument which is set to 1 if the T
+    axis is linearly spaced ... this option is not used for the SDM plots.
+

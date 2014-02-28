@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4"
+   name=""
+   committed-date="2008-03-31T23:02:59.424873Z"
+   url="http://mt.coas.oregonstate.edu/svn/EMTF/trunk/examples/EMI-MT1"
+   last-author="anya"
+   kind="dir"
+   uuid="bcfa3012-84ba-4d04-8f02-a7023fe307d2"
+   revision="17"/>
+<entry
+   name="MT"
+   kind="dir"/>
+<entry
+   name="Results"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="optionsCOH.cfg"
+   text-time="2008-04-07T23:29:45.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="18e9689abb44547d33d3a6fb89291c97"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tranmt.cfg"
+   text-time="2008-04-07T23:29:45.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="54586bb7a750e8d77a94d1deef557061"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:44.000000Z"/>
+<entry
+   name="FC"
+   kind="dir"/>
+<entry
+   name="DATA"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="options.cfg"
+   text-time="2008-04-07T23:29:45.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="ba5c85267c7df183d562bd4f5075cbcd"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:45.000000Z"/>
+<entry
+   name="sensors"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="README"
+   text-time="2008-04-07T23:29:45.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="a1a65b5e1c1e54671b8d153bace791c2"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="paths.cfg"
+   text-time="2008-04-07T23:29:45.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="64c292c061778fbfad047217be7223ab"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:45.000000Z"/>
+</wc-entries>

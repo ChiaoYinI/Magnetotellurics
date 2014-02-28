@@ -1,0 +1,98 @@
+This directory contains "configuration" (*.cfg) files
+used by EMTF processing programs.  In typical usage the contents
+of this directory are copied to <survey>/CF and then
+edited as necessary to adjust processing options for
+a particular survey (accounting for gross differences
+in sampling rates, period ranges, time series lengths, etc.)
+
+The default *.cfg files are set up for typical long
+period MT installations using NIMS systems: sampling
+rates of 1 s, occupation times of 1-3 weeks.  
+
+Following are the important files, and uses; see EMTF
+documentation for more details.
+
+--> paths.cfg 
+This file is used by dnff to define *relative* paths for input
+and output files.  E.g.,
+
+data 			! data file directory (input)
+SP			! system parameter file (*.sp) directory (input)
+data/BR			! bad record file (*.bad) directory (input)
+CF/decset.cfg       	! decset configuration file NAME (input)
+CF/pwset.cfg		! pwset configuration file NAME (input)
+FC			! directory for Fourier coefficient files (outputs)
+CF/options_SS.cfg       !  
+CF/options_RR.cfg       ! The final 3 lines give file names that are
+CF/bsNIMS.cfg           !  not read by dnff ... these are not required.
+
+The final 3 lines are read by the ArrayManager matlab program to define
+relative path names for default *.cfg files used for running transfer
+function programs: lines 1-3 are for single site, remote reference, and
+(the band setup file for) multi-station processing.  If not present,
+hard-coded default names are used.
+
+Note that dnff first looks for paths.cfg in the directory where
+the program is run (.) .  If paths.cfg is not found, dnff looks in ./CF;
+failing this, the program prompts for a paths.cfg file path.
+In all cases the paths in paths.cfg are relative: e.g., the data file
+(which dnff prompts the user for, say dataFile.bin) is taken to be
+./data/dataFile.bin; the system parameter file is taken to be
+./SP/dataFile.sp; the output (for 5 channel MT) goes in
+./FC/dataFile.f5.  If standard directory names and configuration
+files are used, no modification of paths.cfg should be required.
+
+--> decset.cfg  
+This file (used by dnff) defines the cascade decimation scheme (number of
+decimation levels, length in number of points of windows
+for each level, filter coefficients for low-pass filtering before
+decimation between levels, some parameters which define
+maximum permissible gaps and number of FCs save.  Details and
+examples are in EMTF documentation.
+
+--> pwset.cfg
+This file (used by dnff) defines the prewhitening options (length of AR filter
+for each channel, decimation level).  See EMTF for documentation.
+
+--> bs?????.cfg
+This file is used by both of the processing programs (tranmt and
+multmtrn) to define the frequency bands used for estimation.  The
+number of frequency bands are given, together with information
+to identify which Fourier coefficients are to be used for each
+band--namely the decimation level, and the range of Fourier coefficient
+numbers (so 3 integers for each band, one per line).
+FC number i for decimation level j corresponds to frequency (in hz)
+i/T(j) where T(j) is the length (in seconds) of the windows
+for decimation level j (e.g., for 1 hz data at
+decimation level 1 with 128 point sets (this is 
+set in decset.cfg) T(1) = 128 s; if level 2 is obtained by
+decimating by a factor of 4 (again, this is set in decset.cfg)
+then T(2) = 512s, etc.
+
+--> options_SS.cfg, options_RR.cfg
+The options file is read by the single site and remote reference
+processing program, tranmt.  The file sets various options, including
+whether processing is remote reference, coherence sorting options
+(not sure these all work!)  and the name of the band set up (bs????.cfg)
+file to use.  Normally I keep an options_SS.cfg file for single site,
+and an options_RR.cfg for remote reference.  The band setup file
+name is modified most often, depending on sampling rates.  (E.g.,
+very different bs files are needed for 8hz and 1 hz NIMS, to get
+estimates at similar frequencies.) 
+
+Note that there is no options file read by multmtrn (the multiple
+station code).  The name of the bs file is instead passed to
+multmtrn through the array.cfg file, which has names of all input
+data files.
+
+Note also that any names for the files can be used, except for paths.cfg.
+Any decset and pwset file names can be set in paths.cfg; similarly
+any bs file name can be set in the options.cfg files (and in array.cfg
+file for multmtrn), and any name for the options files can be used.
+Names of options files are passed to tranmt through the tranmt.cfg
+file.  When run through the matlab interfaces, all of these input
+configuration files are created "on the fly" by the interface (using
+information in the paths.cfg file, plus information obtained through
+the user interfaces.)
+
+

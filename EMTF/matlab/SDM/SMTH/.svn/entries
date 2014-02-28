@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="8"
+   name=""
+   committed-date="2008-04-07T23:36:41.523001Z"
+   url="http://mt.coas.oregonstate.edu/svn/EMTF/trunk/matlab/SDM/SMTH"
+   last-author="egbert"
+   kind="dir"
+   uuid="bcfa3012-84ba-4d04-8f02-a7023fe307d2"
+   revision="17"/>
+<entry
+   committed-rev="3"
+   name="eigSMcbk.m"
+   text-time="2008-04-07T23:28:40.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="f7c04fe93a9ce6feaffb2b8dc5a17ba5"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="eigSMplt.m"
+   text-time="2008-04-07T23:28:40.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="fc562ddb38c340fb9f4a0667e578b27b"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="UVplot.m"
+   text-time="2008-04-07T23:28:40.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="16d09510c88ca050a7b6c95472a034ed"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="eigSMchk.m"
+   text-time="2008-04-07T23:28:40.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="1ae61f0c65bbcdcf40d77fa9c14d3df0"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="eigTF.m"
+   text-time="2008-04-07T23:28:40.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="69eb9745bd7d3b34b9627a40f612d6ee"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="eigsmth.m"
+   text-time="2008-04-07T23:28:40.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="a13898d59f41c2fc2dceb9c4f1ec9ca8"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="orthp2nd.m"
+   text-time="2008-04-07T23:28:40.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="a00d39a792724ea188544f6539373b4a"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="eigSM.m"
+   text-time="2008-04-07T23:28:40.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="be0283967ed933aae394ee0c0281266a"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="MsftSmth.m"
+   text-time="2008-04-07T23:28:40.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="9aa7d6f44733bbee6fafd02235f1aad5"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="UVest.m"
+   text-time="2008-04-07T23:28:40.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="5c5fa3055c142aad21ffe9818b83c90d"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="UVset.m"
+   text-time="2008-04-07T23:28:40.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="7f53a8017a81e01728e6b43b509efbcb"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="index.m"
+   text-time="2008-04-07T23:28:41.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="43ebab0f783015f617cb7e27e78651c4"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="eigSMfit.m"
+   text-time="2008-04-07T23:28:41.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="b6c793dcad638549b86d8233068dd35a"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="eigSMset.m"
+   text-time="2008-04-07T23:28:41.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="e0f85242aba239cb2398f22faf85a217"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="boxInd.m"
+   text-time="2008-04-07T23:28:41.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="8e42bd7a45327803b3d6978b1572aa02"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="UVall.m"
+   text-time="2008-04-07T23:28:41.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="477dcce56a9a595b5a00daf153829f82"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+</wc-entries>

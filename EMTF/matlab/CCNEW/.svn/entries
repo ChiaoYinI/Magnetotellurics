@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2008-03-31T22:45:53.781675Z"
+   url="http://mt.coas.oregonstate.edu/svn/EMTF/trunk/matlab/CCNEW"
+   last-author="anya"
+   kind="dir"
+   uuid="bcfa3012-84ba-4d04-8f02-a7023fe307d2"
+   revision="17"/>
+<entry
+   committed-rev="2"
+   name="CCcomments.doc"
+   text-time="2007-10-09T05:23:05.000000Z"
+   committed-date="2008-03-31T21:40:44.829012Z"
+   checksum="5d433c0948d94031771896f233bd62c2"
+   last-author="egbert"
+   kind="file"
+   prop-time="2008-03-31T21:37:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="CCsignif.m"
+   text-time="2008-04-07T23:28:39.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="6ef91789719362fb7fa251c3dcba8d59"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="runCCsignif.m"
+   text-time="2008-04-07T23:28:39.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="d828b09862ea271ef37c3853f95635a5"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="CC_TF.m"
+   text-time="2008-04-07T23:28:39.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="cc90c980405fe8f7ca097e72896859bd"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:39.000000Z"/>
+<entry
+   committed-rev="2"
+   name="CC.tar"
+   text-time="2008-03-18T05:31:39.000000Z"
+   committed-date="2008-03-31T21:40:44.829012Z"
+   checksum="05449dd53428ff7e496987ccd9bf5878"
+   last-author="egbert"
+   kind="file"
+   prop-time="2008-03-31T21:37:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mkRandSDM.m"
+   text-time="2008-04-07T23:28:39.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="80dbf0a2a58d962b1deeb60bcc756351"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README"
+   text-time="2008-04-07T23:28:39.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="bafd5cad4be9e6a93f06e0142f057a03"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mcSDM.m"
+   text-time="2008-04-07T23:28:40.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="41e415d4cff745c166bd55605addb7a7"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:39.000000Z"/>
+</wc-entries>

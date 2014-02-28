@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="14"
+   name=""
+   committed-date="2008-04-28T21:44:06.401192Z"
+   url="http://mt.coas.oregonstate.edu/svn/EMTF/trunk/CF"
+   last-author="egbert"
+   kind="dir"
+   uuid="bcfa3012-84ba-4d04-8f02-a7023fe307d2"
+   revision="17"/>
+<entry
+   committed-rev="14"
+   name="options_1hz_SS.cfg"
+   text-time="2008-04-28T21:42:28.000000Z"
+   committed-date="2008-04-28T21:44:06.401192Z"
+   checksum="0c6c1ff1e3e57f9616e23e7ddf9ba911"
+   last-author="egbert"
+   kind="file"
+   prop-time="2008-04-07T23:29:38.000000Z"/>
+<entry
+   committed-rev="7"
+   name="pwset_1hz.cfg"
+   text-time="2008-04-07T23:29:39.000000Z"
+   committed-date="2008-04-03T18:31:16.340577Z"
+   checksum="5b530070f4f5fee5864c898e4131d132"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:38.000000Z"/>
+<entry
+   committed-rev="7"
+   name="bs_1hz.cfg"
+   text-time="2008-04-07T23:29:39.000000Z"
+   committed-date="2008-04-03T18:31:16.340577Z"
+   checksum="290fadcb191351bcbb8a6e58725fb0cc"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:38.000000Z"/>
+<entry
+   committed-rev="7"
+   name="decset_1hz.cfg"
+   text-time="2008-04-07T23:29:39.000000Z"
+   committed-date="2008-04-03T18:31:16.340577Z"
+   checksum="5a33f30f480c0e99332add1beeffd7b4"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:38.000000Z"/>
+<entry
+   committed-rev="14"
+   name="options_RR.cfg"
+   text-time="2008-04-28T21:42:33.000000Z"
+   committed-date="2008-04-28T21:44:06.401192Z"
+   checksum="915240af8b99f8a717d5b8615d8e152a"
+   last-author="egbert"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="README"
+   text-time="2008-04-11T16:20:50.000000Z"
+   committed-date="2008-04-11T16:27:03.862138Z"
+   checksum="8ccbc835ce0a16b659ba4182a80f2280"
+   last-author="egbert"
+   kind="file"/>
+<entry
+   committed-rev="9"
+   name="paths.cfg"
+   text-time="2008-04-11T16:25:17.000000Z"
+   committed-date="2008-04-11T16:27:03.862138Z"
+   checksum="eaa859b81b62fb2c20b834d5afbc4153"
+   last-author="egbert"
+   kind="file"/>
+</wc-entries>

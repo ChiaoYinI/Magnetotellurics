@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="15"
+   name=""
+   committed-date="2008-05-02T16:54:02.490706Z"
+   url="http://mt.coas.oregonstate.edu/svn/EMTF/trunk/matlab/SDM"
+   last-author="egbert"
+   kind="dir"
+   uuid="bcfa3012-84ba-4d04-8f02-a7023fe307d2"
+   revision="17"/>
+<entry
+   committed-rev="3"
+   name="sdmPlotCB.m"
+   text-time="2008-04-07T23:28:41.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="8e58ec22a7e34d83c61d18b088c38e17"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="get_ib.m"
+   text-time="2008-04-07T23:28:41.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="8ff9bf59ff219d8e40c19e908ea1b185"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="corrmenu.m"
+   text-time="2008-04-07T23:28:41.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="3ee761a0cb2d92c393557be7752504f2"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="15"
+   name="pwg.m"
+   text-time="2008-05-01T17:03:55.000000Z"
+   committed-date="2008-05-02T16:54:02.490706Z"
+   checksum="1387d68a56ea58b7b53194dcf246b380"
+   last-author="egbert"
+   kind="file"/>
+<entry
+   committed-rev="3"
+   name="sdmPlotSet.m"
+   text-time="2008-04-07T23:28:41.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="503d4a0e6dfa3100b873e6f142f17d73"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="plt_sig.m"
+   text-time="2008-04-07T23:28:41.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="bdef6358200d643e3438233f8793eec9"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="compEvec.m"
+   text-time="2008-04-07T23:28:41.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="f4dbdb88fb4a6089d29a606b863cc09b"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="setImp.m"
+   text-time="2008-04-07T23:28:41.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="3335e1b00fa4ec1890044ad172b2d38e"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="evecPlt.m"
+   text-time="2008-04-07T23:28:41.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="cff51046f2722ed290bf99fb79769320"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ch_pair.m"
+   text-time="2008-04-07T23:28:41.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="db565d7222cdb1e0ba63566c520a4a59"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="loadsdms.m"
+   text-time="2008-04-07T23:28:42.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="968658a25a40e2c581645897458a6b69"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="evplt_HE.m"
+   text-time="2008-04-07T23:28:42.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="0a8a643f69da7847cd97c21b057b44fc"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="evecmenu.m"
+   text-time="2008-04-07T23:28:42.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="89685a67054b712ed58d97ca6a4b81c8"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="CCmenu.m"
+   text-time="2008-04-07T23:28:42.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="a9cde841b23f3b66ba5e58803485dc32"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="CorrAdd.m"
+   text-time="2008-04-07T23:28:42.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="454812016b3c9ea9b2675270e62197c0"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="u_pair.m"
+   text-time="2008-04-07T23:28:42.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="b2909b3963c3cf3b15fac24ccaf73dde"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:40.000000Z"/>
+<entry
+   name="SMTH"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Cor_plot.m"
+   text-time="2008-04-07T23:28:42.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="ff128f29aeddaee159ba32a21d194f61"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="impNorm.m"
+   text-time="2008-04-07T23:28:42.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="3f83ab3fa50d18132d87396f4b70d81e"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:41.000000Z"/>
+<entry
+   committed-rev="15"
+   name="sdmPlot.m"
+   text-time="2008-05-01T16:45:47.000000Z"
+   committed-date="2008-05-02T16:54:02.490706Z"
+   checksum="216f005ee66bd9288bd5e8588d833a54"
+   last-author="egbert"
+   kind="file"
+   prop-time="2008-04-07T23:28:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ReCompEvec.m"
+   text-time="2008-04-07T23:28:42.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="6294b1b99ba672203e04af3a7addff07"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="SDMvar.m"
+   text-time="2008-04-07T23:28:42.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="db8f64f26bc04289b9f9dfb7d40bb27d"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="SDMsub.m"
+   text-time="2008-04-07T23:28:42.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="f467f38983780995b2f4335ebf43c3de"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="evecCbk.m"
+   text-time="2008-04-07T23:28:42.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="f41e4b6a0dcff3467ef42b52317a63d7"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="compCC.m"
+   text-time="2008-04-07T23:28:42.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="33aafaf4a918663329719d438dd050ea"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sdmstruc.m"
+   text-time="2008-04-07T23:28:42.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="052625696060dc0cb001cbce4487dc83"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="corr.m"
+   text-time="2008-04-07T23:28:42.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="115933ac1786a9f19c6617f08312de44"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:41.000000Z"/>
+<entry
+   committed-rev="15"
+   name="sdm_init.m"
+   text-time="2008-05-01T16:52:31.000000Z"
+   committed-date="2008-05-02T16:54:02.490706Z"
+   checksum="93da2c1f664b46e759d75ff23c7be654"
+   last-author="egbert"
+   kind="file"
+   prop-time="2008-04-07T23:28:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="plt_eval.m"
+   text-time="2008-04-07T23:28:42.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="7892274751766ed186bc5772906cb71a"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mvcorr.m"
+   text-time="2008-04-07T23:28:43.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="2f8cd1cab5060192c78824b885d6b4b5"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sdm_in.m"
+   text-time="2008-04-07T23:28:43.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="52af9268b147109093afb4ca1e00a681"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="SetCorCh.m"
+   text-time="2008-04-07T23:28:43.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="bd19d4a8f0dd0acf290f1fb022db4edb"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="CCmenuCB.m"
+   text-time="2008-04-07T23:28:43.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="9fd41031c6bf8956c58dee34c022c8b1"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="clearSDMfig.m"
+   text-time="2008-04-07T23:28:43.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="fbce58fda5de9785770e957aeed721c4"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="plt_snr.m"
+   text-time="2008-04-07T23:28:43.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="05eca7216bac8cfb73a3c3b80d23afb5"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:28:41.000000Z"/>
+</wc-entries>

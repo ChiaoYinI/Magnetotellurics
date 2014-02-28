@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4"
+   name=""
+   committed-date="2008-03-31T23:02:59.424873Z"
+   url="http://mt.coas.oregonstate.edu/svn/EMTF/trunk/examples/CF"
+   last-author="anya"
+   kind="dir"
+   uuid="bcfa3012-84ba-4d04-8f02-a7023fe307d2"
+   revision="17"/>
+<entry
+   committed-rev="3"
+   name="pwset.cfg"
+   text-time="2008-04-07T23:29:40.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="d15b397b2cde29df827594feba8b1975"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bs_test.cfg"
+   text-time="2008-04-07T23:29:40.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="cdb94f5d44377c5137c632cfac7632c9"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="decset.cfg"
+   text-time="2008-04-07T23:29:40.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="0ed8ac7e7400c15da0032d91f4533cd8"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bs_ts4.cfg"
+   text-time="2008-04-07T23:29:40.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="3efb9846029de99c28b99e8df288a328"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:40.000000Z"/>
+</wc-entries>

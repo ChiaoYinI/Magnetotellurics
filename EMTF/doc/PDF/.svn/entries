@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2"
+   name=""
+   committed-date="2008-03-31T21:40:44.829012Z"
+   url="http://mt.coas.oregonstate.edu/svn/EMTF/trunk/doc/PDF"
+   last-author="egbert"
+   kind="dir"
+   revision="17"/>
+<entry
+   committed-rev="2"
+   name="Z_files.pdf"
+   text-time="2007-07-19T04:39:57.000000Z"
+   committed-date="2008-03-31T21:40:44.829012Z"
+   checksum="c34be84cc0b5ba76d12bc219464e8cc0"
+   last-author="egbert"
+   kind="file"/>
+<entry
+   committed-rev="2"
+   name="EMTF_doc.pdf"
+   text-time="2007-07-19T04:39:56.000000Z"
+   committed-date="2008-03-31T21:40:44.829012Z"
+   checksum="00054105bfaf43ee27f83b909d999da1"
+   last-author="egbert"
+   kind="file"/>
+<entry
+   committed-rev="2"
+   name="MMT_doc.pdf"
+   text-time="2007-07-19T04:39:56.000000Z"
+   committed-date="2008-03-31T21:40:44.829012Z"
+   checksum="7cdba0dd1a585574de89b118f6711585"
+   last-author="egbert"
+   kind="file"/>
+<entry
+   committed-rev="2"
+   name="matlab_doc.pdf"
+   text-time="2007-07-19T04:39:56.000000Z"
+   committed-date="2008-03-31T21:40:44.829012Z"
+   checksum="b3c9de43b4cf08e6af386ba9f9154d0b"
+   last-author="egbert"
+   kind="file"/>
+<entry
+   committed-rev="2"
+   name="PROC_MT2.PDF"
+   text-time="2007-07-19T04:39:57.000000Z"
+   committed-date="2008-03-31T21:40:44.829012Z"
+   checksum="08492aa09456e4332877049e09948457"
+   last-author="egbert"
+   kind="file"/>
+</wc-entries>

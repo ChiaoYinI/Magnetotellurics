@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2008-03-31T22:45:53.781675Z"
+   url="http://mt.coas.oregonstate.edu/svn/EMTF/trunk/examples/EMI-MT1/Results"
+   last-author="anya"
+   kind="dir"
+   uuid="bcfa3012-84ba-4d04-8f02-a7023fe307d2"
+   revision="17"/>
+<entry
+   committed-rev="3"
+   name="d05l1_NR.zss"
+   text-time="2008-04-07T23:29:44.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="128982ca5a2ff7a953dbbd23b4c78260"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="d05l1_1.zss"
+   text-time="2008-04-07T23:29:44.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="8b11a7f2ef345248124cbaf6ab9464c7"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="d05l1_COH.zss"
+   text-time="2008-04-07T23:29:44.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="1168bd82ab4bf33f39cdaea9aaa5037e"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:44.000000Z"/>
+</wc-entries>

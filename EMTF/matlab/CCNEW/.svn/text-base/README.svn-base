@@ -1,0 +1,8 @@
+CCsignif computes significance levels for canonical coherences.
+Look at comments in this m-file for more detailed explanations.
+
+runCCsignif is a test program, which sets up all arguments for
+a call to CCsignif, calls the function, and plots some of the
+outputs.  Some further explanations are in this file.
+
+mkRandSDM is called by CCsignif.m

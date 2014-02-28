@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2008-03-31T22:45:53.781675Z"
+   url="http://mt.coas.oregonstate.edu/svn/EMTF/trunk/examples/EMI-MT1/sensors"
+   last-author="anya"
+   kind="dir"
+   uuid="bcfa3012-84ba-4d04-8f02-a7023fe307d2"
+   revision="17"/>
+<entry
+   committed-rev="3"
+   name="BF4-9506.RSP"
+   text-time="2008-04-07T23:29:45.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="50b988ebf7b46627f68ae3351fb3a34c"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="EF-9505X.RSP"
+   text-time="2008-04-07T23:29:45.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="814131305498c0e82b2d179c7f1aa698"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="EF-9505Y.RSP"
+   text-time="2008-04-07T23:29:45.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="43d9b567be41bd571e2ac51876937708"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="BF4-9501.RSP"
+   text-time="2008-04-07T23:29:45.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="1bb51bbb2a2d5207de4daf157eb9f624"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="BF4-9502.RSP"
+   text-time="2008-04-07T23:29:45.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="ac5a701a4041817b11032224b53e8786"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:45.000000Z"/>
+</wc-entries>

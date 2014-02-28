@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2008-03-31T22:45:53.781675Z"
+   url="http://mt.coas.oregonstate.edu/svn/EMTF/trunk/doc/TEX"
+   last-author="anya"
+   kind="dir"
+   uuid="bcfa3012-84ba-4d04-8f02-a7023fe307d2"
+   revision="17"/>
+<entry
+   committed-rev="3"
+   name="EMTF_doc.tex"
+   text-time="2008-04-07T23:29:13.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="f6e9915fee1fdbfc3db1c8920a821413"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="MMT_doc.tex"
+   text-time="2008-04-07T23:29:13.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="954974e869eed99f797766f8151e8cd8"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="matlab_doc.tex"
+   text-time="2008-04-07T23:29:13.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="b1c71bae6d7c588b5f577f75118521ca"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Z_files.tex"
+   text-time="2008-04-07T23:29:13.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="9f650c9b894df502375b6a9b1d922db8"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-04-07T23:29:13.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="4a0dd96bb09152a85eb1dc830f18e354"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:13.000000Z"/>
+</wc-entries>

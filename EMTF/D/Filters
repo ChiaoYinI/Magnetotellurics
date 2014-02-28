@@ -1,0 +1,26 @@
+Filter calibrations are handled through the following routines:
+
+1) getsp reads the sp file, including an array of filter type
+    indices (iftype(:,:) and character strings afparam(:,:) (now of
+    length 256 for each filter) that contain filter parameters
+    required to complete filter specification for each type
+
+2) fcorsu concatenates all filter responses + any other corrections
+    needed to get Fourier coefficients into physical units of nT/sqt(hz)
+    or mV/km/sqrt(hz).  If first difference prewhitening is used,
+    this is included in the correction tables produced by this routine;
+    If adaptive prewhitening is used this is not included, since the
+    digital pre-whitening filter changes for each time segment.
+    Correction for low pass digital filter applied before decimation is
+    included.
+    Filter responses can be specified in this routine, or in separate
+    subroutines called by fcorsu.  At present there are two additional
+
+3) afcor provides a place to speficy filter responses (those that are
+     not a line or so, which might be specified in fcorsu).  Presently
+     contains three routines, called by fcorsu: 
+     afcor : a bunch of analogue filters, of specific types parameterized 
+           by one or two numbers, e.g., a cut-off period.
+     pz_rsp :  a general pole-zero response
+     rsptbl : interpolate a system response look up table
+     The last two were moved to this file in August 2006

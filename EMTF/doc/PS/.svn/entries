@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2008-03-31T22:45:53.781675Z"
+   url="http://mt.coas.oregonstate.edu/svn/EMTF/trunk/doc/PS"
+   last-author="anya"
+   kind="dir"
+   uuid="bcfa3012-84ba-4d04-8f02-a7023fe307d2"
+   revision="17"/>
+<entry
+   committed-rev="3"
+   name="EMTF_doc.ps"
+   text-time="2008-04-07T23:29:14.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="2cc8c635e2df1f424a60adc9c6109fa1"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="MMT_doc.ps"
+   text-time="2008-04-07T23:29:14.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="a67347b64736b5261c31133bf0fac661"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="matlab_doc.ps"
+   text-time="2008-04-07T23:29:14.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="ff2f957dae6788153019e7825eea16b9"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Z_files.ps"
+   text-time="2008-04-07T23:29:15.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="4231a8ccec01cdccfccbc5ef94b3d9a8"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:13.000000Z"/>
+</wc-entries>

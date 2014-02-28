@@ -1,0 +1,1366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2008-03-31T22:45:53.781675Z"
+   url="http://mt.coas.oregonstate.edu/svn/EMTF/trunk/MMT/lapack/blas_src"
+   last-author="anya"
+   kind="dir"
+   uuid="bcfa3012-84ba-4d04-8f02-a7023fe307d2"
+   revision="17"/>
+<entry
+   committed-rev="3"
+   name="scasum.f"
+   text-time="2008-04-07T23:29:21.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="6eaed52b4b61d6a2e0aa15e0d4444803"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="chbmv.f"
+   text-time="2008-04-07T23:29:21.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="dc6ec0557329c02d1f695eb35a3a2e4d"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zher2k.f"
+   text-time="2008-04-07T23:29:21.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="d4697a61a44c345148dd3c7ca80c4b06"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zhpr2.f"
+   text-time="2008-04-07T23:29:21.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="a92988ae4d73825e64b2a6bf1f5c0c6e"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zrotg.f"
+   text-time="2008-04-07T23:29:21.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="4417cd1a1b13a95514be3ed37a051803"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sspmv.f"
+   text-time="2008-04-07T23:29:21.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="b33d5dc2416100441f2fde49ae8581e1"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="srotmg.f"
+   text-time="2008-04-07T23:29:21.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="038cee4b5c6ba230fda7742c1bf38306"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="chpmv.f"
+   text-time="2008-04-07T23:29:21.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="35a6068fb13eeb631d1e1a550d4f726b"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dcopy.f"
+   text-time="2008-04-07T23:29:21.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="247cc7b575d95c97830a636932843a3e"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:16.000000Z"/>
+<entry
+   name="temp"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="dtrmm.f"
+   text-time="2008-04-07T23:29:21.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="1686c4cc913872dc8e6884c808f42762"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dscal.f"
+   text-time="2008-04-07T23:29:21.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="48e663163082f36c7153d1113e88dd92"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="blas3.list"
+   text-time="2008-04-07T23:29:21.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="c810aaca9400a7c631f5714452e8fe6c"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ddot.f"
+   text-time="2008-04-07T23:29:22.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="3590d6127b1b59883ddfd61275e50087"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dgbmv.f"
+   text-time="2008-04-07T23:29:22.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="fb6cd9aadfb5cae9d8df6b4a67a38c2e"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zdrot.f"
+   text-time="2008-04-07T23:29:22.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="ffb05b968f2372af27bb3ac7a42c6dff"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cher2.f"
+   text-time="2008-04-07T23:29:22.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="b555176071cdf5f3713d8b7c4cfad984"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dzasum.f"
+   text-time="2008-04-07T23:29:22.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="d34090c8a16c4f3a89ade85bf000c1fa"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="idamax.f"
+   text-time="2008-04-07T23:29:22.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="6d1540412962f6ed15cb13ce416a3b8e"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ztbsv.f"
+   text-time="2008-04-07T23:29:22.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="121b9758a08e79064de8cbaed3aa3c38"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="drot.f"
+   text-time="2008-04-07T23:29:22.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="fbe308990b21ec219d613db48fb1c972"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dswap.f"
+   text-time="2008-04-07T23:29:22.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="cd6b65b5d44c88d9d43f99665bf35206"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cher.f"
+   text-time="2008-04-07T23:29:22.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="1668d7841cbcc8165c024db08035f25c"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ssyr2.f"
+   text-time="2008-04-07T23:29:22.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="6e73b32e50501fc2505c7be0ac542195"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zdotc.f"
+   text-time="2008-04-07T23:29:22.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="99253d4945b57671369ccd59f0f4df36"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ztpsv.f"
+   text-time="2008-04-07T23:29:22.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="8ebe73f65290f1b5e0e99e96a0d4b8ae"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ztrsv.f"
+   text-time="2008-04-07T23:29:22.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="ac668021e9d337d29a2ba1ccc0dc6f51"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="csymm.f"
+   text-time="2008-04-07T23:29:22.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="6892cc7679650cf2a49cb3aa6eb12f9b"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zgemv.f"
+   text-time="2008-04-07T23:29:22.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="9210a4d83d5fbc7353fd349d0500d895"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="chemm.f"
+   text-time="2008-04-07T23:29:22.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="708eecc582b4b9b034fdd79efe652288"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="csrot.f"
+   text-time="2008-04-07T23:29:23.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="852d5cf4d9f78ad309e04be90dd34f20"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dcabs1.f"
+   text-time="2008-04-07T23:29:23.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="c67f3ae408434a9e3b13f5a55bfe3f66"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dsymv.f"
+   text-time="2008-04-07T23:29:23.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="f59079118c01b9d0f396705f387168dc"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="srotm.f"
+   text-time="2008-04-07T23:29:23.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="838c561d36a89c0064ff5e8484e1eef7"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ssymm.f"
+   text-time="2008-04-07T23:29:23.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="0e0398559ad4e2f849a5247de2f5ef34"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zgerc.f"
+   text-time="2008-04-07T23:29:23.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="44c593c89b64dae1ef576bdc0a4c6245"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dtbmv.f"
+   text-time="2008-04-07T23:29:23.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="dd1932a8cc1944a6f6200458efdff77e"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ccopy.f"
+   text-time="2008-04-07T23:29:23.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="47631a61ef89c620ca2bbc56b6699f31"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zdscal.f"
+   text-time="2008-04-07T23:29:23.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="023d16a7598e95414a7575e894c332b4"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dger.f"
+   text-time="2008-04-07T23:29:23.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="d51f6144c2eae3daf5481884bcc3d26c"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ctrmm.f"
+   text-time="2008-04-07T23:29:23.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="c6d5e78ce5b8158084f883a57536e18e"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dnrm2.f"
+   text-time="2008-04-07T23:29:23.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="a413bf1f93d31b71476862b789d27dda"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cscal.f"
+   text-time="2008-04-07T23:29:23.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="a518d6c8cab859ef4cf54a28c5bfb98d"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="daxpy.f"
+   text-time="2008-04-07T23:29:23.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="4e0d94e7ce42ce7268b089b04b2980c7"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zhbmv.f"
+   text-time="2008-04-07T23:29:23.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="66e22d99b87a54c58440a7f9d142e7e7"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dtrsm.f"
+   text-time="2008-04-07T23:29:23.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="decbae18f10aafe81a224351b26400f0"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dgemm.f"
+   text-time="2008-04-07T23:29:23.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="0713b2205c85abb75bdaba6fe74199b0"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dtpmv.f"
+   text-time="2008-04-07T23:29:24.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="4aad4ba6a471734e8648737eca5b6816"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dspr2.f"
+   text-time="2008-04-07T23:29:24.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="f8a22b0c7c2626e4f09cf9a8fe919f83"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dtrmv.f"
+   text-time="2008-04-07T23:29:24.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="8d5727297fd98a1c6304654d89560ad5"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="chpr.f"
+   text-time="2008-04-07T23:29:24.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="e6df780620c77dd39af7f7cf8cad8cf8"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dsyrk.f"
+   text-time="2008-04-07T23:29:24.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="bbb1132a88763615c93fba3cea41367d"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="scopy.f"
+   text-time="2008-04-07T23:29:24.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="d2938400d36b965692d893690e6b2ec2"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cgbmv.f"
+   text-time="2008-04-07T23:29:24.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="2cd1075e8b034889407d082567696abf"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ssyr.f"
+   text-time="2008-04-07T23:29:24.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="b7cc76dbe4992e41b5ebd88a563f746f"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="strmm.f"
+   text-time="2008-04-07T23:29:24.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="413c88fce4a8a49a62d8c8d9621f5623"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="icamax.f"
+   text-time="2008-04-07T23:29:24.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="ca0c7c5e46d1222a85295b4d52d215aa"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zhpmv.f"
+   text-time="2008-04-07T23:29:24.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="2f5b2c693d70f6d43c158c8eab184e35"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sscal.f"
+   text-time="2008-04-07T23:29:24.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="30f1d98cd9e413e668043b73fcc416b1"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="csscal.f"
+   text-time="2008-04-07T23:29:24.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="7013d424efd958f326861cd09535704c"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cswap.f"
+   text-time="2008-04-07T23:29:24.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="8bbe98420effb3869852f628ba6440f0"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sgbmv.f"
+   text-time="2008-04-07T23:29:24.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="69a4c1a72068360f5ed512c0357b761c"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cdotu.f"
+   text-time="2008-04-07T23:29:25.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="70403c3b4c17a36f89a79dc658dcd361"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="drotg.f"
+   text-time="2008-04-07T23:29:25.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="79b84b6a8c64608529ea674bde8ea4ab"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="isamax.f"
+   text-time="2008-04-07T23:29:25.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="1d6fae0ab7db9409e96011961e622f55"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="blas2.list"
+   text-time="2008-04-07T23:29:25.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="d3df9ccf803e7c1de31c7954c43e0107"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zher2.f"
+   text-time="2008-04-07T23:29:25.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="1243c6f7992cb2056c83e96c3a99cf82"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sswap.f"
+   text-time="2008-04-07T23:29:25.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="a5dccdc721397999f559d9bdd35f9920"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="chemv.f"
+   text-time="2008-04-07T23:29:25.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="19befe4d3d12a1c434b46a9de3fd2805"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cgeru.f"
+   text-time="2008-04-07T23:29:25.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="9c19d5ff75d235c588f37ee3eced835f"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dspr.f"
+   text-time="2008-04-07T23:29:25.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="7b7470b256d94a3892ebe8b7d73ca7c7"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sdot.f"
+   text-time="2008-04-07T23:29:25.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="bd935330d4f1216a8a857fc74da58141"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ctbmv.f"
+   text-time="2008-04-07T23:29:25.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="8d8088a9a77264b7b98e13d325ff1058"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="xerbla.f"
+   text-time="2008-04-07T23:29:25.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="cf3aa0167dd52a373f7157818a04be44"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dsyr2k.f"
+   text-time="2008-04-07T23:29:25.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="d715f5217cda3d49146a5c66249480de"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zsymm.f"
+   text-time="2008-04-07T23:29:26.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="bdf293376aacbf880d243bacd8eee8a1"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zhemm.f"
+   text-time="2008-04-07T23:29:26.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="4e6b8fa01ed8d9a81cb8e1307b0d493c"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ssymv.f"
+   text-time="2008-04-07T23:29:26.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="f2c16b03b596581523d6951433e09b0b"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dtbsv.f"
+   text-time="2008-04-07T23:29:26.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="4c1b113b1bb494abaa9e48adf80ae0b3"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="caxpy.f"
+   text-time="2008-04-07T23:29:26.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="28f65a01d6215aa5f19f94aa21524a70"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="srot.f"
+   text-time="2008-04-07T23:29:26.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="dcd6a4fe8f5b1c58ecca9a9b52b0c689"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ctrsm.f"
+   text-time="2008-04-07T23:29:26.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="f8249dfaeac62d56b3cf3ea5fb23283e"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cgemm.f"
+   text-time="2008-04-07T23:29:26.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="2a58d27477f38552a1e2e3bcc5bd75b9"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ctpmv.f"
+   text-time="2008-04-07T23:29:27.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="6db03ce48d5b1f16ccf71707d636be46"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-04-07T23:29:26.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="c7daf5cbd8e04a833720c4c768a1ecbf"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ctrmv.f"
+   text-time="2008-04-07T23:29:27.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="15291d5ad0fd3bd4f49b866b58419b9d"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="csyrk.f"
+   text-time="2008-04-07T23:29:27.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="a84ab1f9cb6dadd180859dde8480d6f2"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="stbmv.f"
+   text-time="2008-04-07T23:29:27.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="d95ff3bc84f1794eeb0d42952b29d503"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cherk.f"
+   text-time="2008-04-07T23:29:27.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="a07c6c03ca6412de038809b9bf25d229"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dtpsv.f"
+   text-time="2008-04-07T23:29:28.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="b4e11b419643756b4908e7e333ab3b86"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="snrm2.f"
+   text-time="2008-04-07T23:29:28.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="419bf775194ff6a3032f2a5670914424"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dgemv.f"
+   text-time="2008-04-07T23:29:28.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="04c2b38e1b4e1ce20346fadf9d7c6917"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dtrsv.f"
+   text-time="2008-04-07T23:29:28.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="ea2ea910e1c53743f6b2dfcf5c14795b"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="saxpy.f"
+   text-time="2008-04-07T23:29:28.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="67f7a3ad43e0c1fa5f33d39102e255c8"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="scnrm2.f"
+   text-time="2008-04-07T23:29:28.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="76796970bfc792012228efc2e7c315db"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zcopy.f"
+   text-time="2008-04-07T23:29:28.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="c777e0e04f697af6bf433bfcb575c7d2"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zher.f"
+   text-time="2008-04-07T23:29:29.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="3c6ed869ff796844b7e4b2166bc25192"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sgemm.f"
+   text-time="2008-04-07T23:29:29.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="45f49bd118d24d78196417c34b3d97d5"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="strsm.f"
+   text-time="2008-04-07T23:29:29.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="a6fdfb1e097877c5368ca1ad8ad2e24d"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ztrmm.f"
+   text-time="2008-04-07T23:29:29.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="da4726db03f75147c5a9fa654bd5617b"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dasum.f"
+   text-time="2008-04-07T23:29:29.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="8d11d85a68853cf233395fe7715218d9"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sspr2.f"
+   text-time="2008-04-07T23:29:29.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="4075ee60aabb1498972ae26ca205dbbc"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="stpmv.f"
+   text-time="2008-04-07T23:29:29.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="06cd8f17f02a878c149de16616203df2"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dsbmv.f"
+   text-time="2008-04-07T23:29:29.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="1e70ee961850f18e036c609a6944b0a0"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ssyrk.f"
+   text-time="2008-04-07T23:29:29.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="c295f8652d051497caed9118a376638c"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="strmv.f"
+   text-time="2008-04-07T23:29:29.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="2056b3cbf42752e56d3c22b0dc35ef74"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zscal.f"
+   text-time="2008-04-07T23:29:29.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="aaa62a1bae0c36e0371443c51acc5dea"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="csyr2k.f"
+   text-time="2008-04-07T23:29:29.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="0b18d637a9b66dedd7ad713cbf5062c6"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="chpr2.f"
+   text-time="2008-04-07T23:29:30.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="904141a73a8bfad5c79c0f14042c25f0"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="crotg.f"
+   text-time="2008-04-07T23:29:30.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="0224acd01c725957a63e2c0a0d3a8523"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zgbmv.f"
+   text-time="2008-04-07T23:29:30.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="bd2c4ed677c60244eb10c8e2f848a4c4"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dspmv.f"
+   text-time="2008-04-07T23:29:30.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="6ec5ad1b4dce6faba6ef5d9133f323af"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="izamax.f"
+   text-time="2008-04-07T23:29:30.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="85c2dc1b9d493f8e646c8664c5a1748f"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ssyr2k.f"
+   text-time="2008-04-07T23:29:30.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="56ae83d0e2c8aa01ed48d97e1ef87528"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="srotg.f"
+   text-time="2008-04-07T23:29:30.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="27840f4b89585823cc7c52d91490dc74"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sger.f"
+   text-time="2008-04-07T23:29:30.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="b72c9ca8cc05554af6eae505d61afb0b"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zswap.f"
+   text-time="2008-04-07T23:29:30.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="023bf2a286e23eda8278bce68b839167"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zdotu.f"
+   text-time="2008-04-07T23:29:30.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="551e89c81e3c405c97a1a3f0791f141f"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dznrm2.f"
+   text-time="2008-04-07T23:29:30.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="ed808e4bd8a8b20c238c951ba03fc931"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cher2k.f"
+   text-time="2008-04-07T23:29:30.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="f5182bb7ef9e32cb6f9d60669a8e334f"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ctbsv.f"
+   text-time="2008-04-07T23:29:30.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="1dbcc9d7af94d1f5b689508f39d5b0fb"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zhpr.f"
+   text-time="2008-04-07T23:29:31.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="c553cbf4e06d9b3b525ccc93ba8037ad"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zhemv.f"
+   text-time="2008-04-07T23:29:31.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="454b7265ee2dd7ee5ff0de69eb645bec"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="drotmg.f"
+   text-time="2008-04-07T23:29:31.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="f29f72261095b9717a0f6af4e5c6438f"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cdotc.f"
+   text-time="2008-04-07T23:29:31.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="31fd59756fabf4f62d002e4829283ba6"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zgeru.f"
+   text-time="2008-04-07T23:29:31.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="69c0e0588de0b509cc27b12dd6e84aee"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ctpsv.f"
+   text-time="2008-04-07T23:29:31.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="63b6788d9f605078eccb145b2093bfd9"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="stbsv.f"
+   text-time="2008-04-07T23:29:31.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="8a2c12bd28dfd875b53d6abdbf6b7c82"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="lsame.f"
+   text-time="2008-04-07T23:29:31.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="ad5700678f9cca31572e546c4d0bde26"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cgemv.f"
+   text-time="2008-04-07T23:29:31.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="6281d0d8c793859e1f013022001a8d8f"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ctrsv.f"
+   text-time="2008-04-07T23:29:31.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="ef3e3d73e2cd0d0746fd21d78060d949"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ztbmv.f"
+   text-time="2008-04-07T23:29:31.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="915f9692c5399f51cd756eeba0a96745"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dsyr2.f"
+   text-time="2008-04-07T23:29:31.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="657d9240f57472b12090052640c65b67"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zsyr2k.f"
+   text-time="2008-04-07T23:29:32.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="bca749304e381b3e607b2e0248db7713"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zaxpy.f"
+   text-time="2008-04-07T23:29:32.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="7e20d8df467486a8a2d5b0962a297685"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zgemm.f"
+   text-time="2008-04-07T23:29:32.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="a0d612dbfd79e57e815523af006ad219"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="stpsv.f"
+   text-time="2008-04-07T23:29:32.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="2ad73a7b2f91083dc80e0b25647b195e"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ztrsm.f"
+   text-time="2008-04-07T23:29:32.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="26bbf42d74e26783c53153c5f19a0eac"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ztpmv.f"
+   text-time="2008-04-07T23:29:32.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="2449bec6ba559581c8f0197fee4b1214"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="strsv.f"
+   text-time="2008-04-07T23:29:32.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="0a761133279a9493fa1e27d76e0f4ccf"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sgemv.f"
+   text-time="2008-04-07T23:29:32.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="d11cf4b40137c18e759e3f6992ca9662"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dsyr.f"
+   text-time="2008-04-07T23:29:32.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="70e4d25a980338f950d9c934330708f9"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zsyrk.f"
+   text-time="2008-04-07T23:29:32.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="0d058833b271809ca91ba90a09c41b6e"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ztrmv.f"
+   text-time="2008-04-07T23:29:32.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="a4814878867abf3c3762c19359f5cad9"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cgerc.f"
+   text-time="2008-04-07T23:29:32.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="7b4245fda1721281fb693d70ffdeebff"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zherk.f"
+   text-time="2008-04-07T23:29:32.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="1b916d799815d421fa76b3cb00cbb052"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="drotm.f"
+   text-time="2008-04-07T23:29:32.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="a34dadd0bc2bec4dda93c730b1e01b79"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sspr.f"
+   text-time="2008-04-07T23:29:33.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="e644b985a19b3efbd41cab84cddd575c"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sasum.f"
+   text-time="2008-04-07T23:29:33.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="3f8e06007870453387f7ec5edb361d72"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dsymm.f"
+   text-time="2008-04-07T23:29:33.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="7e3d1d342ef0d5d04d9fce18e91811c9"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ssbmv.f"
+   text-time="2008-04-07T23:29:33.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="6a859dee102e88dddf136707a4d95ef5"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:20.000000Z"/>
+</wc-entries>

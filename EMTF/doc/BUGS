@@ -1,0 +1,18 @@
+April 16 2008: FC file headers do not contain set overlaps; they do
+contain window lengths and sampling rates for each
+decimation level.  To convert sample (record) numbers to set numbers
+it is necessary to know sample rate, sample number for set number
+one, and distance between sets (i.e., window length-overlap).
+This computation has to be done in tranmt to map bad segments
+(which can be marked in TSplot, and are recorded as sample
+number relative to the "clock zero") to set numbers to be omitted.
+At present tranmt ASSUMES that the overlap is .25 of the window
+length ... this is hard-coded.  In all uses I have made of EMTF
+overlaps have been .25, but in principal this could be set differently
+in the decset file, and then tranmt would calculate set numbers
+containing bad data segments incorrectly.  FIX: don't deviate
+from the .25 overlap factor if you want to use the interactive software!
+
+Long term, FC files should be changed to something like netCDF and
+more complete and less obtuse header information should be provided.
+

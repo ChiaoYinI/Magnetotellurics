@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2008-03-31T22:45:53.781675Z"
+   url="http://mt.coas.oregonstate.edu/svn/EMTF/trunk/include"
+   last-author="anya"
+   kind="dir"
+   uuid="bcfa3012-84ba-4d04-8f02-a7023fe307d2"
+   revision="17"/>
+<entry
+   committed-rev="3"
+   name="nchmx.inc"
+   text-time="2008-04-07T23:29:13.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="29e73a261ec2e8a2ba3dca1290843596"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="four_byte.inc"
+   text-time="2008-04-07T23:29:13.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="86ca594ac3c189eff5256a0d57cf141d"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="datsz.inc"
+   text-time="2008-04-07T23:29:13.000000Z"
+   committed-date="2008-03-31T22:45:53.781675Z"
+   checksum="d7d47147757022944774c90afd58d498"
+   last-author="anya"
+   kind="file"
+   prop-time="2008-04-07T23:29:13.000000Z"/>
+</wc-entries>
