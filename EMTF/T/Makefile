@@ -1,9 +1,11 @@
 #	Makefile for TRANMT
+# Did not compile succesfully. 
 #
-FC = f77
+FC = gfortran 
 FFLAGS= -g
 #BIN_DIR= /home/server/homes/pi/eisel/bin
-BIN_DIR= ${MTbin}
+#BIN_DIR= ${MTbin}
+BIN_DIR= ../examples/bin 
 
 TARGETS=	tranmtLR install clean
 

@@ -1,9 +1,10 @@
 ##  Multiple station processing program
+# Assigned gotos.
 
 #  change BIN_DIR to desired bin directory 
-BIN_DIR= ${MTbin}
+BIN_DIR= ../examples/bin 
 #FC = g95 
-FC=f77
+FC=gfortran
 
 #  options for debug compilation
 FCFLAGS = -g 

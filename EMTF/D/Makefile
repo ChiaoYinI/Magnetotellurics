@@ -2,13 +2,15 @@
 #	edit the BIN_DIR directory to install dnff in your binary directory
 #	use make all to compile, link, install dnff and remove all .o files
 #	for debugging exchange the -O2 and -g options in FFLAGS
-
+#
+# Compiled with out of bounds warnings.
 
 #FC = g95
-FC=f77
+FC=gfortran
 FFLAGS= 
 # -g
-BIN_DIR = ${MTbin}
+#BIN_DIR = ${MTbin}
+BIN_DIR = ../examples/bin
 
 
 TARGETS=	dnff clean
